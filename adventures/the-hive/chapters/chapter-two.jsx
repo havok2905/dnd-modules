@@ -4,6 +4,7 @@ import {
     Columns,
     EmphasisBlock,
     Page,
+    PanZoom,
     RollTable
 } from 'dnd-module';
 
@@ -30,7 +31,9 @@ const ChapterTwo = ()=> {
                 communicate with this player should they wish, regardless of the roll.
             </p>
             <h2>Map</h2>
-            <img src={ MarshMapImage } alt='marsh map'/>
+            <PanZoom>
+                <img src={ MarshMapImage } alt='marsh map'/>
+            </PanZoom>
             <Columns>
                 <div>
                     <h2>A: Random</h2>

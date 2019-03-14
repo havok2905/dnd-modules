@@ -22,7 +22,7 @@ const App = ()=> {
             <ChapterTwo/>
             <ChapterThree/>
             <Creatures/>
-            <Footer/>
+            <Footer scrollButton={true} quickRefButton={true} rollForm={true}/>
         </Fragment>
     );
 };

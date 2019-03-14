@@ -4,6 +4,7 @@ import {
     Columns,
     EmphasisBlock,
     Page,
+    PanZoom,
     RollTable
 } from 'dnd-module';
 
@@ -60,7 +61,9 @@ const ChapterThree = ()=> {
             </Columns>
             <h2>Cavern</h2>
             <h3>Level 1</h3>
-            <img src={UnderdarkLebel1Image} alt='underdark level 1 map'/>
+            <PanZoom>
+                <img src={UnderdarkLebel1Image} alt='underdark level 1 map'/>
+            </PanZoom>
             <Columns>
                 <div>
                     <h4>A: Raven Storeroom</h4>
@@ -110,7 +113,9 @@ const ChapterThree = ()=> {
                 </div>
             </Columns>
             <h3>Basement 1</h3>
-            <img src={UnderdarkBasement1Image} alt='underdark basement 1 map'/>
+            <PanZoom>
+                <img src={UnderdarkBasement1Image} alt='underdark basement 1 map'/>
+            </PanZoom>
             <Columns>
                 <div>
                     <h4>B: Underdark Shanty Town</h4>
@@ -232,7 +237,9 @@ const ChapterThree = ()=> {
                 </div>
             </Columns>
             <h3>Basement 2</h3>
-            <img src={UnderdarkBasement2Image} alt='underdark basement 2 map'/>
+            <PanZoom>
+                <img src={UnderdarkBasement2Image} alt='underdark basement 2 map'/>
+            </PanZoom>
             <Columns>
                 <div>
                     <h4>K: Wide Hall</h4>
@@ -293,7 +300,9 @@ const ChapterThree = ()=> {
                 </div>
             </Columns>
             <h3>Basement 3</h3>
-            <img src={UnderdarkBasement3Image} alt='underdark basement 3 map'/>
+            <PanZoom>
+                <img src={UnderdarkBasement3Image} alt='underdark basement 3 map'/>
+            </PanZoom>
             <Columns>
                 <div>
                     <h4>D: Back up to Level 1</h4>

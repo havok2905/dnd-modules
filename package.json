@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "dnd-module": "https://github.com/havok2905/dnd-module#master",
+    "dnd-module": "0.4.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
