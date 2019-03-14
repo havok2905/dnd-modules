@@ -5,16 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-the-hive": "webpack --config=webpack.the-hive.config.js --mode=production",
-    "run-the-hive": "webpack-dev-server --config=webpack.the-hive.config.js",
-    "deploy-the-hive": "gh-pages -d dist"
+    "build": "webpack --config=webpack.config.js --mode=production",
+    "start": "webpack-dev-server --config=webpack.config.js",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "dnd-module": "0.4.0",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { render } from 'react-dom';
 import { Footer, Page, TableOfContents } from 'dnd-module';
 
 import Overview from './chapters/overview.jsx';
@@ -10,7 +9,7 @@ import Creatures from './chapters/creatures.jsx';
 
 import TABLE_OF_CONTENTS from './constants/table-of-contents';
 
-const App = ()=> {
+const TheHive = ()=> {
     return (
         <Fragment>
             <Page>
@@ -27,7 +26,4 @@ const App = ()=> {
     );
 };
 
-render(
-    <App/>,
-    document.getElementById('root')
-);
+export { TheHive };
