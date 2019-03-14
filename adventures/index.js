@@ -25,7 +25,7 @@ const ModulesPage = ()=> {
 };
 
 render((
-   <Router>
+   <Router basename="/dnd-modules">
         <div>
             <Route path='/' exact component={ModulesPage}/>
             <Route path='/the-hive' component={TheHive}/>
