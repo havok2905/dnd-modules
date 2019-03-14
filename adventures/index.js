@@ -1,7 +1,11 @@
 import React, { Fragment } from 'react';
 import { render } from 'react-dom';
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+    HashRouter,
+    Route,
+    Link
+  } from 'react-router-dom';
 
 import { Page } from 'dnd-module';
 
@@ -25,11 +29,11 @@ const ModulesPage = ()=> {
 };
 
 render((
-   <Router basename="/dnd-modules">
+   <HashRouter basename="/dnd-modules">
         <div>
             <Route path='/' exact component={ModulesPage}/>
             <Route path='/the-hive' component={TheHive}/>
             <Route path='/hibers-edge' component={HibersEdge}/>
         </div>
-   </Router> 
+   </HashRouter> 
 ), document.getElementById('root'));
