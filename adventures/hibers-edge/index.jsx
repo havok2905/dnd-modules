@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { 
-    Container,
+    CollapsableContainer,
     EmphasisBlock,
     Footer,
     ItemBlock,
@@ -37,7 +37,7 @@ const HibersEdge = ()=> {
                 <TableOfContents contentsList={ TABLE_OF_CONTENTS }/>
             </Page>
             <Page>
-                <h1>Overview</h1>
+                <h1 id='overview'>Overview</h1>
                 <h2>Background</h2>
                 <p>
                     Hibers Edge has been under blockade for some time and recently been freed. New challenges await them
@@ -307,7 +307,7 @@ const HibersEdge = ()=> {
                 <RollTable items={ RANDOM_ENCOUNTERS }/>
             </Page>
             <Page>
-                <h1>The Sea</h1>
+                <h1 id='the-sea'>The Sea</h1>
                 <h2>The Dragon Turtle's Skeleton</h2>
                 <h3>Above Water</h3>
                 <EmphasisBlock>
@@ -379,54 +379,7 @@ const HibersEdge = ()=> {
                 </p>
             </Page>
             <Page>
-                <h1>NPCs</h1>
-                <h2>Hero of Legend</h2>
-                <Container>
-                    <MonsterBlock {...HERO_OF_LEGEND}/>
-                </Container>
-                <h2>Elsa</h2>
-                <Container>
-                    <MonsterBlock {...ELSA}/>
-                </Container>
-                <h2>Elsa's Construct</h2>
-                <Container>
-                    <MonsterBlock {...ELSAS_CONSTRUCT}/>
-                </Container>
-                <h2>Innkeeper Martel</h2>
-                <Container>
-                    <MonsterBlock {...INNKEEPER_MARTEL}/>
-                </Container>
-                <h2>Mia the Blacksmith</h2>
-                <Container>
-                    <MonsterBlock {...MIA_THE_BLACKSMITH}/>
-                </Container>
-                <h2>Tom Selnick</h2>
-                <Container>
-                    <MonsterBlock {...TOM_SELNICK}/>
-                </Container>
-            </Page>
-            <Page>
-                <h1>Custom Creatures</h1>
-                <h2>Kraken Tentacle</h2>
-                <Container>
-                    <MonsterBlock {...KRAKEN_TENTACLE}/>
-                </Container>
-                <h2>Priest of Thor</h2>
-                <Container>
-                    <MonsterBlock {...PRIEST_OF_THOR}/>
-                </Container>
-                <h2>Cult of the Deep One Member</h2>
-                <Container>
-                    <MonsterBlock {...CULT_OF_THE_DEEP_ONE_MEMBER}/>
-                </Container>
-                <h2>Cult of the Deep One Master</h2>
-                <Container>
-                    <MonsterBlock {...CULT_OF_THE_DEEP_ONE_MASTER}/>
-                </Container>
-            </Page>
-            <Page>
-                <h1>Custom Items</h1>
-                <h2>Marshmallow Capsule</h2>
+                <h1 id='custom-items'>Custom Items</h1>
                 <ItemBlock  
                     name="Marshmallow Capsule" 
                     rarity='Rare' 
@@ -443,6 +396,42 @@ const HibersEdge = ()=> {
                         Grants the wearer true sight.
                     </p>
                 </ItemBlock>
+            </Page>
+            <Page>
+                <h1 id='npcs'>NPCs</h1>
+                <CollapsableContainer title='Hero of Legend'>
+                    <MonsterBlock {...HERO_OF_LEGEND}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Elsa'>
+                    <MonsterBlock {...ELSA}/>
+                </CollapsableContainer>
+                <CollapsableContainer title="Elsa's Construct">
+                    <MonsterBlock {...ELSAS_CONSTRUCT}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Innkeeper Martel'>
+                    <MonsterBlock {...INNKEEPER_MARTEL}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Mia the Blacksmith'>
+                    <MonsterBlock {...MIA_THE_BLACKSMITH}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Tom Selnick'>
+                    <MonsterBlock {...TOM_SELNICK}/>
+                </CollapsableContainer>
+            </Page>
+            <Page>
+                <h1 id='custom-creatures'>Custom Creatures</h1>
+                <CollapsableContainer title='Kraken Tentacle'>
+                    <MonsterBlock {...KRAKEN_TENTACLE}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Priest of Thor'>
+                    <MonsterBlock {...PRIEST_OF_THOR}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Cult of the Deep One Member'>
+                    <MonsterBlock {...CULT_OF_THE_DEEP_ONE_MEMBER}/>
+                </CollapsableContainer>
+                <CollapsableContainer title='Cult of the Deep One Master'>
+                    <MonsterBlock {...CULT_OF_THE_DEEP_ONE_MASTER}/>
+                </CollapsableContainer>
             </Page>
             <Footer scrollButton={true} quickRefButton={true} rollForm={true}/>
         </Fragment>

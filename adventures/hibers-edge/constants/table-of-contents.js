@@ -11,7 +11,12 @@ export default [
     },
     {
         title: 'The Sea',
-        description: '#the-sea',
+        link: '#the-sea',
+        children: []
+    },
+    {
+        title: 'Custom Items',
+        link: '#custom-items',
         children: []
     },
     {
