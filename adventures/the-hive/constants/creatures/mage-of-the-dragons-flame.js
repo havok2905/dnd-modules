@@ -18,9 +18,14 @@ export default {
         'fire'
     ],
     damageWeaknesses: [],
-    description: 'Inventory includes 50GP, 1 Black Cloak, 1 Flame Emblem worth 100GP',
+    description: '',
     features: [],
     hp: 108,
+    inventory: [
+        '50GP',
+        '1 Black Cloak',
+        '1 Flame Emblem worth 100GP'
+    ],
     languages: [
         'Common',
         'Infernal',

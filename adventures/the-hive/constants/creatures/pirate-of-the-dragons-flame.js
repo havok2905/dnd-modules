@@ -24,9 +24,17 @@ export default {
     damageImmunities: [],
     damageResistances: [],
     damageWeaknesses: [],
-    description: 'Inventory includes 50GP, 1 Black Cloak, 1 Flame Emblem worth 100GP, 1 Dagger, 1 Fire Bomb if unused, 1 Flash Bang if unused',
+    description: '',
     features: [],
     hp: 108,
+    inventory: [
+        '50GP',
+        '1 Black Cloak',
+        '1 Flame Emblem worth 100GP',
+        '1 Dagger',
+        '1 Fire Bomb if unused',
+        '1 Flash Bang if unused'
+    ],
     languages: [
         'Common',
         'Infernal',
