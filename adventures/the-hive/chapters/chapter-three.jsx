@@ -5,7 +5,8 @@ import {
     EmphasisBlock,
     Page,
     PanZoom,
-    RollTable
+    RollTable,
+    ScrollToMe
 } from 'dnd-module';
 
 import UnderdarkLebel1Image from '../img/underdark-level-1.png';
@@ -18,6 +19,7 @@ import UNDER_DARK_ROLL_TABLE from '../constants/roll-tables/underdark-roll-table
 const ChapterThree = ()=> {
     return (
         <Page>
+            <ScrollToMe scrollActionString='chapter-three'/>
             <h1 id='chapter-three'>Chapter Three: Into the Hive</h1>
             <Columns>
                 <div>

@@ -14,7 +14,7 @@ const TheHive = ()=> {
         <Fragment>
             <Page>
                 <h1>The Hive</h1>
-                <TableOfContents contentsList={ TABLE_OF_CONTENTS }/>
+                <TableOfContents contentsList={ TABLE_OF_CONTENTS } hashReferencesSupported={false}/>
             </Page>
             <Overview/>
             <ChapterOne/>

@@ -5,7 +5,8 @@ import {
     EmphasisBlock,
     Page,
     PanZoom,
-    RollTable
+    RollTable,
+    ScrollToMe
 } from 'dnd-module';
 
 import MARSH_ROLL_TABLE from '../constants/roll-tables/marsh-roll-table';
@@ -15,6 +16,7 @@ import MarshMapImage from '../img/marsh-map.jpg';
 const ChapterTwo = ()=> {
     return (
         <Page>
+            <ScrollToMe scrollActionString='chapter-two'/>
             <h1 id='chapter-two'>Chapter Two: Into the Marsh</h1>           
             <EmphasisBlock>
                 <p>

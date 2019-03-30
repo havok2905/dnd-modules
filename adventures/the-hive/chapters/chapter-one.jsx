@@ -3,7 +3,8 @@ import React from 'react';
 import { 
     Columns,
     EmphasisBlock,
-    Page 
+    Page,
+    ScrollToMe
 } from 'dnd-module';
 
 const ChapterOne = ()=> {
@@ -11,6 +12,7 @@ const ChapterOne = ()=> {
         <Page>
             <Columns>
                 <div>
+                    <ScrollToMe scrollActionString='chapter-one'/>
                     <h1 id='chapter-one'>Chapter One: Pirate Captain Sloan</h1>
                     <EmphasisBlock>
                         <p>

@@ -2,7 +2,8 @@ import React from 'react';
 
 import {
     Columns,
-    Page
+    Page,
+    ScrollToMe
 } from 'dnd-module';
 
 const Overview = ()=> {
@@ -10,6 +11,7 @@ const Overview = ()=> {
         <Page>
             <Columns>
                 <div>
+                    <ScrollToMe scrollActionString='overview'/>
                     <h1 id='overview'>Overview</h1>
                     <p>
                         This adventure is meant to pit the main party against two 
@@ -34,6 +36,7 @@ const Overview = ()=> {
                         <li>Free the Myconids</li>
                         <li>Pit the Myconids and Sloan against each other</li>
                     </ol>
+                    <ScrollToMe scrollActionString='background-story'/>
                     <h2 id='background-story'>Background Story</h2>
                     <p>
                         After the fall of the desert metropolis, Habarashi City, Sloan, second in command of the 
@@ -61,6 +64,7 @@ const Overview = ()=> {
                     </p>
                 </div>
                 <div>
+                    <ScrollToMe scrollActionString='sloans-motivation'/>
                     <h2 id='sloans-motivation'>Sloan's Motivation</h2>
                     <p>
                         Sloan just recently fled the city of Habarashi without her beloved husband. 
@@ -80,6 +84,7 @@ const Overview = ()=> {
                         Sloan will never willingly show any sign of weakness and will hide any 
                         emotions that will portray her as weak or compromised.
                     </p>
+                    <ScrollToMe scrollActionString='the-aboleths-motivation'/>
                     <h2 id='the-aboleths-motivation'>The Aboleth's Motivation</h2>
                     <p>
                         The Abolith is more ancient than time itself, predating the current gods. 
@@ -93,6 +98,7 @@ const Overview = ()=> {
                         The Aboleth is wise, and patient. It will bide it's time and wait for precise 
                         moments to strike. It is slowly biding it's time, building up it's forces.
                     </p>
+                    <ScrollToMe scrollActionString='the-myconids'/>
                     <h2 id='the-myconids'>The Myconids</h2>
                     <p>
                         The myconids are a mushroom people that inhabit the underdark. They exist as

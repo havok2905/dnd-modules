@@ -3,7 +3,8 @@ import React from 'react';
 import {
     CollapsableContainer,
     MonsterBlock,
-    Page
+    Page,
+    ScrollToMe
 } from 'dnd-module';
 
 import MYCONID_ADULT from '../constants/creatures/myconid-adult';
@@ -17,6 +18,7 @@ import SLOAN from '../constants/creatures/sloan';
 const Creatures = ()=> {
     return (
         <Page>
+            <ScrollToMe scrollActionString='creatures-and-npcs'/>
             <h1 id='creatures-and-npcs'>Creatures and NPCs</h1>
             <CollapsableContainer title='Myconid Adult' idSlug='myconid-adult'>
                 <MonsterBlock {...MYCONID_ADULT}/>
