@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Page } from "dnd-module";
+import { Page, ScrollToMe } from "dnd-module";
 
 const Overview = () => {
     return (
         <Page>
+            <ScrollToMe scrollActionString="overview" />
             <h1>Overview</h1>
+            <ScrollToMe scrollActionString="backstory" />
             <h2>Backstory</h2>
             <p>
                 Several months ago, a devastating force overtook the continent.
@@ -34,6 +36,7 @@ const Overview = () => {
                 in the temple. Their methods and end goals are far more
                 nefarious however.
             </p>
+            <ScrollToMe scrollActionString="goals" />
             <h2>Goals</h2>
             <ul>
                 <li>
@@ -45,6 +48,7 @@ const Overview = () => {
                 </li>
                 <li>Leave Krossa, enroute to slay Enkiem</li>
             </ul>
+            <ScrollToMe scrollActionString="pantheon" />
             <h2>Pantheon</h2>
             <h3>How Gods Work</h3>
             <p>

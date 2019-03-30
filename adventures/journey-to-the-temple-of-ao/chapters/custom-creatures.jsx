@@ -1,6 +1,11 @@
 import React from "react";
 
-import { CollapsableContainer, MonsterBlock, Page } from "dnd-module";
+import {
+    CollapsableContainer,
+    MonsterBlock,
+    Page,
+    ScrollToMe
+} from "dnd-module";
 
 import ARCTIC_FOX from "../constants/creatures/arctic-fox";
 import KROSSA_NOMAD from "../constants/creatures/krossa-nomad";
@@ -15,6 +20,7 @@ import PROFANE_SOUL_SHIP from "../constants/creatures/profane-soul-ship";
 const CustomCreatures = () => {
     return (
         <Page>
+            <ScrollToMe scrollActionString="custom-creatures" />
             <h1>Custom Creatures</h1>
             <CollapsableContainer title="Arctic Fox">
                 <MonsterBlock {...ARCTIC_FOX} />

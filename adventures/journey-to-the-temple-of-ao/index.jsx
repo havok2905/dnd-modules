@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Footer, Page } from "dnd-module";
+import { Footer, Page, TableOfContents } from "dnd-module";
 import { Overview } from "./chapters/overview.jsx";
 import { Factions } from "./chapters/factions.jsx";
 import { WorldMap } from "./chapters/world-map.jsx";
@@ -12,11 +12,17 @@ import { TempleOfAo } from "./chapters/temple-of-ao.jsx";
 import { CustomCreatures } from "./chapters/custom-creatures.jsx";
 import { Npcs } from "./chapters/npcs.jsx";
 
+import TABLE_OF_CONTENTS from "./constants/table-of-contents.js";
+
 const JourneyToTheTempleOfAo = () => {
     return (
         <Fragment>
             <Page>
                 <h1>Journey to the Temple of Ao</h1>
+                <TableOfContents
+                    contentsList={TABLE_OF_CONTENTS}
+                    hashReferencesSupported={false}
+                />
             </Page>
             <Overview />
             <Factions />

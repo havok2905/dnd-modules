@@ -1,6 +1,6 @@
 import React from "react";
 
-import { EmphasisBlock, Page, RollTable } from "dnd-module";
+import { EmphasisBlock, Page, RollTable, ScrollToMe } from "dnd-module";
 
 import FROZEN_TUNDRA_ROLL_TABLE from "../constants/roll-tables/frozen-tundra-roll-table";
 import SNOWCRASH_MOUNTAINS_ROLL_TABLE from "../constants/roll-tables/snowcrash-mountains-roll-table";
@@ -8,6 +8,7 @@ import SNOWCRASH_MOUNTAINS_ROLL_TABLE from "../constants/roll-tables/snowcrash-m
 const Krossa = () => {
     return (
         <Page>
+            <ScrollToMe scrollActionString="krossa" />
             <h1>Krossa</h1>
             <h2>Attempting to Fly Into Krossa</h2>
             <EmphasisBlock>

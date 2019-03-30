@@ -1,10 +1,11 @@
 import React from "react";
 
-import { Page } from "dnd-module";
+import { Page, ScrollToMe } from "dnd-module";
 
 const EncounteringProfaneSoulFleet = () => {
     return (
         <Page>
+            <ScrollToMe scrollActionString="encountering-profane-soul-fleet" />
             <h1>Encountering Profane Soul Fleet</h1>
             <p>
                 Attempting to fly over New Fey will cause the players to get

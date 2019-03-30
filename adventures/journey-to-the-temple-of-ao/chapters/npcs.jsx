@@ -1,10 +1,11 @@
 import React from "react";
 
-import { Page } from "dnd-module";
+import { Page, ScrollToMe } from "dnd-module";
 
 const Npcs = () => {
     return (
         <Page>
+            <ScrollToMe scrollActionString="npcs" />
             <h1>NPCs</h1>
             <ul>
                 <li>Celeste Albina: Mountain Guide</li>

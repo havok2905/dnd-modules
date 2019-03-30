@@ -1,10 +1,11 @@
 import React from "react";
 
-import { Page } from "dnd-module";
+import { Page, ScrollToMe } from "dnd-module";
 
 const Factions = () => {
     return (
         <Page>
+            <ScrollToMe scrollActionString="factions" />
             <h1>Factions</h1>
             <h2>Order of the Profane Soul</h2>
             <p>
