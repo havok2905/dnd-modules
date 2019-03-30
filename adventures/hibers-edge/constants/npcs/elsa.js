@@ -20,9 +20,15 @@ export default {
     damageImmunities: [],
     damageResistances: [],
     damageWeaknesses: [],
-    description: 'Inventory: 5 Marshmallow Capsules, 2 Sending Stones, 1 Eye Patch of True Sight, 1 Set of tinkerers tools',
+    description: '',
     features: [],
     hp: 58,
+    inventory: [
+        '5 Marshmallow Capsules',
+        '2 Sending Stones',
+        '1 Eye Patch of True Sight',
+        '1 Set of Tinkerers Tools'
+    ],
     languages: [
         'Common',
         'Elvish',

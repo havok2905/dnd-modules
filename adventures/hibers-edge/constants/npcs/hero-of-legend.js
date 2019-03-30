@@ -40,7 +40,7 @@ export default {
     damageImmunities: [],
     damageResistances: [],
     damageWeaknesses: [],
-    description: 'Inventory: 1 potion of Supreme Healing. 1 +3 Shield. Description: This half elf is exceptionally old, with long white hair, a bushy beard, and a green tunic.',
+    description: 'This half elf is exceptionally old, with long white hair, a bushy beard, and a green tunic.',
     features: [
         {
             title: 'Favored Terrain',
@@ -48,6 +48,10 @@ export default {
         }
     ],
     hp: 250,
+    inventory: [
+        '1 potion of Supreme Healing',
+        '1 +3 Shield'
+    ],
     languages: [
         'Common',
         'Elvish'

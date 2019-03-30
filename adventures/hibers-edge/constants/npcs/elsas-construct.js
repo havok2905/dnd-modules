@@ -20,7 +20,7 @@ export default {
     damageImmunities: [],
     damageResistances: [],
     damageWeaknesses: [],
-    description: '',
+    description: 'This large metal eagle is made of steel plates, sparkling clean, and without a scratch on it',
     features: [
         {
             title: 'Keen Sight',

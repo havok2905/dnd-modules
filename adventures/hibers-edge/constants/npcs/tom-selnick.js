@@ -10,6 +10,9 @@ export default {
     description: '',
     features: [],
     hp: 2,
+    inventory: [
+        '10gp'
+    ],
     languages: [
         'Common'
     ],
