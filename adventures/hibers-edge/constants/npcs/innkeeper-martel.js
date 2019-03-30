@@ -1,29 +1,23 @@
 export default {
     ac: 12,
     actions: [],
-    alignment: 'Lawful Good',
-    challenge: '1/8',
+    alignment: "Lawful Good",
+    challenge: "1/8",
     conditionImmunities: [],
     damageImmunities: [],
     damageResistances: [],
     damageWeaknesses: [],
-    description: '',
+    description: "",
     features: [],
     hp: 5,
-    inventory: [
-        '1000gp'
-    ],
-    languages: [
-        'Common'
-    ],
+    inventory: ["1000gp"],
+    languages: ["Common"],
     reactions: [],
     savingThrows: [],
-    senses: [
-        'passive Perception 12'
-    ],
-    size: 'Medium',
+    senses: ["passive Perception 12"],
+    size: "Medium",
     skills: [],
-    speed: '30 ft.',
+    speed: "30 ft.",
     stats: {
         str: 9,
         dex: 12,
@@ -32,5 +26,5 @@ export default {
         wis: 12,
         cha: 15
     },
-    type: 'Human'
-}
+    type: "Human"
+};
