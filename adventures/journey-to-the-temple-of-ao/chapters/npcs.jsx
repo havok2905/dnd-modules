@@ -22,7 +22,6 @@ const Npcs = () => {
                 <li>Daniel Rudolf: New Fay Guard Captain</li>
                 <li>Estaban: Profane Soul Leader</li>
                 <li>Gabriel Katarina: Mysterious Elf Stranger</li>
-                <li>Ivo Doris: Brewer</li>
                 <li>Klaus Cordula: Waffle and Sausage Hut Owner</li>
                 <li>Sigi Elli: Inn Keeper</li>
             </ul>
