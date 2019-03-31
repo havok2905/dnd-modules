@@ -34,7 +34,7 @@ export default {
         {
             title: "Rite Weapon",
             description:
-                "The blood hunter's rite weapon is its longbow. Its attacks with its rite weapon are magical and deal an additional 4 (1d8) fire damage (included in the attack)."
+                "The blood hunter's rite weapon is its greatsword. Its attacks with its rite weapon are magical and deal an additional 4 (1d8) fire damage (included in the attack)."
         },
         {
             title: "Spellcasting",

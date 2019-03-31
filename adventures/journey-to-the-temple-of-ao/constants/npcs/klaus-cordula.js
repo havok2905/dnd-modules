@@ -1,0 +1,30 @@
+export default {
+    ac: 8,
+    actions: [],
+    alignment: "Chaotic Good",
+    challenge: "1/8",
+    conditionImmunities: [],
+    damageImmunities: [],
+    damageResistances: [],
+    damageWeaknesses: [],
+    description: "Jolly as can be.",
+    features: [],
+    hp: 10,
+    inventory: ["100gp", "1 Notebook for taking orders", "1 Pen"],
+    languages: ["Common", "Elvish"],
+    reactions: [],
+    savingThrows: [],
+    senses: ["Darkvision 30ft."],
+    size: "Medium",
+    skills: [],
+    speed: "30 ft.",
+    stats: {
+        str: 8,
+        dex: 8,
+        con: 15,
+        int: 8,
+        wis: 13,
+        cha: 15
+    },
+    type: "Wood Elf"
+};
