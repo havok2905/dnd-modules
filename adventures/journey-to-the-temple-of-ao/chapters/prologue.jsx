@@ -36,9 +36,16 @@ const Prologue = () => {
                     modest stone temple, well above the clouds.
                 </p>
                 <p>
-                    As the bluebird lay dying, it is calm, for it is calm here.
-                    The sounds of silence ring a pleasant melody that eases the
-                    soul. It has always been peaceful here and always will be.
+                    As the bluebird rested, basked in the pleasant melody that
+                    rang through the frozen peek. It was the sound of a silence
+                    that eased the soul and carried with it a majesty unlike any
+                    other.
+                </p>
+                <p>
+                    The bird looked down on the lands below, set abalze and in
+                    chaos, torn asunder by the wrath of the gods. And if we were
+                    to follow it's gaze, we would see an unlikely group of heros
+                    making their way north.
                 </p>
             </EmphasisBlock>
         </Page>
