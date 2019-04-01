@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Footer, Page, TableOfContents } from "dnd-module";
 import { Overview } from "./chapters/overview.jsx";
+import { Prologue } from "./chapters/prologue.jsx";
 import { Factions } from "./chapters/factions.jsx";
 import { WorldMap } from "./chapters/world-map.jsx";
 import { EncounteringProfaneSoulFleet } from "./chapters/encountering-profane-soul-fleet.jsx";
@@ -25,6 +26,7 @@ const JourneyToTheTempleOfAo = () => {
                 />
             </Page>
             <Overview />
+            <Prologue />
             <Factions />
             <WorldMap />
             <EncounteringProfaneSoulFleet />

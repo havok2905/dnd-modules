@@ -25,6 +25,12 @@ export default [
         ]
     },
     {
+        title: "Prologue",
+        link: "#prologue",
+        scrollActionString: "prologue",
+        children: []
+    },
+    {
         title: "Factions",
         link: "#factions",
         scrollActionString: "factions",
