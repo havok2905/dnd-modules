@@ -28,5 +28,10 @@ export default [
         rollRange: [6],
         description:
             "You arrive at a cave, warmly lit by a fire. Inside a mysterious traveler lay, recently dead from starvation."
+    },
+    {
+        rollRange: [7],
+        description:
+            "1d6 Ember Bats are engaged in a turf war and can be seen glowing brilliantly in the distance.."
     }
 ];
