@@ -1,18 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import {
-    EmphasisBlock,
-    ItemBlock,
-    Page,
-    PanZoom,
-    ScrollToMe
-} from "dnd-module";
+import { EmphasisBlock, ItemBlock, ScrollToMe } from "dnd-module";
 
 const TempleOfAo = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="the-temple-of-ao" />
-            <h1>The Temple of Ao</h1>
+            <h2>The Temple of Ao</h2>
             <EmphasisBlock>
                 <p>
                     We see three archways, crumbled with the passage of time,
@@ -31,7 +25,7 @@ const TempleOfAo = () => {
                 their god. This feeling will dwarf any feelings closeness they
                 have ever experienced before.
             </p>
-            <h2>The Winding Tunnel of the Gods</h2>
+            <h3>The Winding Tunnel of the Gods</h3>
             <EmphasisBlock>
                 <p>
                     Snaking downwards in near blackness, you find yourselves
@@ -47,7 +41,7 @@ const TempleOfAo = () => {
                 gods. They will be drawn to the one of their faith, but be
                 unable to communicate with it.
             </p>
-            <h3>The Trial of the Self</h3>
+            <h4>The Trial of the Self</h4>
             <EmphasisBlock>
                 The stairwell levels out to a circular arena. Standing in the
                 center, motionless, are shadowy figures of pure black. They are
@@ -70,7 +64,7 @@ const TempleOfAo = () => {
                 This trial can be completed by either defeating the shadows or
                 talking them aside.
             </p>
-            <h2>The Main Hall</h2>
+            <h3>The Main Hall</h3>
             <EmphasisBlock>
                 <p>
                     Coming down the steps, you find yourselves in an empty white
@@ -78,7 +72,7 @@ const TempleOfAo = () => {
                     the hall.
                 </p>
             </EmphasisBlock>
-            <h2>The Chamber of Shar</h2>
+            <h3>The Chamber of Shar</h3>
             <EmphasisBlock>
                 <p>
                     The same white that filled the halls behind you fades to
@@ -89,7 +83,7 @@ const TempleOfAo = () => {
                 </p>
                 <blockquote>Welcome. We are Shar. Do you choose us?</blockquote>
             </EmphasisBlock>
-            <h3>The Trial of Darkness</h3>
+            <h4>The Trial of Darkness</h4>
             <p>
                 Those choosing the trial of darkness must begin by recounting
                 the entirety of their journey so far, from birth. Based on the
@@ -98,7 +92,7 @@ const TempleOfAo = () => {
                 with little care to those around them. They must maximize their
                 own well being. What is important are the motivations.
             </p>
-            <h2>The Chamber of Selune</h2>
+            <h3>The Chamber of Selune</h3>
             <EmphasisBlock>
                 <p>
                     The same white that filled the halls behind you continues
@@ -111,7 +105,7 @@ const TempleOfAo = () => {
                     Welcome friends. We are Selune. Do you choose us?
                 </blockquote>
             </EmphasisBlock>
-            <h3>The Trial of Light</h3>
+            <h4>The Trial of Light</h4>
             <p>
                 Those choosing the trial of darkness must begin by recounting
                 the entirety of their journey so far, from birth. Based on the
@@ -121,7 +115,7 @@ const TempleOfAo = () => {
                 to do what is right by all costs. What is important are the
                 motivations.
             </p>
-            <h2>The Chamber of Ao</h2>
+            <h3>The Chamber of Ao</h3>
             <EmphasisBlock>
                 <p>
                     Two candelabras flank a gargantuan fountain, water pouring
@@ -137,7 +131,7 @@ const TempleOfAo = () => {
                     meaning rings true; Welcome, my children.
                 </p>
             </EmphasisBlock>
-            <h3>The Trial of Creation</h3>
+            <h4>The Trial of Creation</h4>
             <p>
                 Those wishing to undergo the trial of creation will be told that
                 Ao already knows of their past. All players must undergo the
@@ -171,8 +165,8 @@ const TempleOfAo = () => {
                 the others to escape is acceptable.
             </p>
             <p>Only one player may use the exit per round.</p>
-            <h2>Trial Prizes</h2>
-            <h3>Selune</h3>
+            <h3>Trial Prizes</h3>
+            <h4>Selune</h4>
             <p>
                 Shar will grant the player a "Star's Emblem" as reward as well
                 as a scroll that will boost the player's level to 15 for one
@@ -192,7 +186,7 @@ const TempleOfAo = () => {
                     instantly die.
                 </p>
             </ItemBlock>
-            <h3>Shar</h3>
+            <h4>Shar</h4>
             <p>
                 Shar will grant the player a "Moon's Emblem" as reward as well
                 as a scroll that will boost the player's level to 15 for one
@@ -212,7 +206,7 @@ const TempleOfAo = () => {
                     instantly die.
                 </p>
             </ItemBlock>
-            <h3>Ao</h3>
+            <h4>Ao</h4>
             <p>
                 Ao will grant each player a scroll which will boost their level
                 to 20 for hour. Along with that, each player will receive a
@@ -222,7 +216,7 @@ const TempleOfAo = () => {
                 destroy any other foe. If not a weapon, the item in question
                 should boost one stat to broken levels.
             </p>
-        </Page>
+        </Fragment>
     );
 };
 

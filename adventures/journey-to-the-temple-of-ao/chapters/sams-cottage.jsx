@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { EmphasisBlock, Page, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, ScrollToMe } from "dnd-module";
 
 const SamsCottage = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="sams-cottage" />
-            <h1>Sam's Cottage</h1>
+            <h2>Sam's Cottage</h2>
             <EmphasisBlock>
                 <p>
                     What was once a cottage, pouring smoke lazily into the
@@ -46,7 +46,7 @@ const SamsCottage = () => {
                     life will continue, despite you.
                 </blockquote>
             </EmphasisBlock>
-        </Page>
+        </Fragment>
     );
 };
 

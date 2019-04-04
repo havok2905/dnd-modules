@@ -1,16 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { EmphasisBlock, Page, RollTable, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, RollTable, ScrollToMe } from "dnd-module";
 
 import FROZEN_TUNDRA_ROLL_TABLE from "../constants/roll-tables/frozen-tundra-roll-table";
 import SNOWCRASH_MOUNTAINS_ROLL_TABLE from "../constants/roll-tables/snowcrash-mountains-roll-table";
 
 const Krossa = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="krossa" />
-            <h1>Krossa</h1>
-            <h2>Attempting to Fly Into Krossa</h2>
+            <h2>Krossa</h2>
+            <h3>Attempting to Fly Into Krossa</h3>
             <EmphasisBlock>
                 <p>
                     Sleet and hail buffets against your ship as winds pull the
@@ -27,7 +27,7 @@ const Krossa = () => {
                 to this ship. It will get caught in the wind and crash just
                 outside of the closest town in New Fey.
             </p>
-            <h2>The Frozen Tundra</h2>
+            <h3>The Frozen Tundra</h3>
             <EmphasisBlock>
                 <p>
                     Flat plains of frozen earth span out in every direction like
@@ -36,10 +36,10 @@ const Krossa = () => {
                     horizon, mountains cut into the sky, through the clouds.
                 </p>
             </EmphasisBlock>
-            <h3>Random Encounters</h3>
+            <h4>Random Encounters</h4>
             <RollTable items={FROZEN_TUNDRA_ROLL_TABLE} />
-            <h2>Snowcrash Mountains</h2>
-            <h3>A: Start of Climb</h3>
+            <h3>Snowcrash Mountains</h3>
+            <h4>A: Start of Climb</h4>
             <EmphasisBlock>
                 <p>
                     Rolling, gray brown hills, dusted with frost scale
@@ -49,7 +49,7 @@ const Krossa = () => {
                     in the distance.
                 </p>
             </EmphasisBlock>
-            <h3>B: Scale Cliff</h3>
+            <h4>B: Scale Cliff</h4>
             <EmphasisBlock>
                 <p>
                     As you approach the base of the mountain, you see a sheer
@@ -73,7 +73,7 @@ const Krossa = () => {
                 be avoided with a DC12 DEX saving throw. On failure, the targets
                 take 1d4 bludgeoning damage.
             </p>
-            <h3>C: Dig Through Snow</h3>
+            <h4>C: Dig Through Snow</h4>
             <EmphasisBlock>
                 <p>
                     You cimb up to a spanning, field of white and snow capped
@@ -91,7 +91,7 @@ const Krossa = () => {
                 Stealth DC20. On failure, two remoraz are alerted to your
                 presence.
             </p>
-            <h3>D: Empty Chasm</h3>
+            <h4>D: Empty Chasm</h4>
             <EmphasisBlock>
                 <p>
                     The air is growing thinner as you walk into a thick sheet of
@@ -102,7 +102,7 @@ const Krossa = () => {
                     around.
                 </p>
             </EmphasisBlock>
-            <h3>E: Traverse Through Tunnels</h3>
+            <h4>E: Traverse Through Tunnels</h4>
             <EmphasisBlock>
                 <p>
                     Light dims to a complete darkness as you descend into a
@@ -122,7 +122,7 @@ const Krossa = () => {
                 Deeper in the tunnels reside hundreds of Drauger. Disturbing one
                 will cause them to come in waves of 5, 10, 20, 40, 80, 160.
             </p>
-            <h3>F: Cross Underground Lake</h3>
+            <h4>F: Cross Underground Lake</h4>
             <EmphasisBlock>
                 <p>
                     You walk into a room filled with shimmering blue light,
@@ -130,7 +130,7 @@ const Krossa = () => {
                     and the lake surface. The surface is crystal clear.
                 </p>
             </EmphasisBlock>
-            <h3>G: Climb Ice Waterfall</h3>
+            <h4>G: Climb Ice Waterfall</h4>
             <EmphasisBlock>
                 <p>
                     You emerge from another tunnel to a blinding light. As your
@@ -139,9 +139,9 @@ const Krossa = () => {
                     billowing smoke.
                 </p>
             </EmphasisBlock>
-            <h3>Random Encounters</h3>
+            <h4>Random Encounters</h4>
             <RollTable items={SNOWCRASH_MOUNTAINS_ROLL_TABLE} />
-        </Page>
+        </Fragment>
     );
 };
 

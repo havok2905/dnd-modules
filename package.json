@@ -1,6 +1,6 @@
 {
     "name": "the-hive",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -12,7 +12,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "dnd-module": "0.5.2",
+        "dnd-module": "../dnd-module",
         "react": "^16.8.3",
         "react-dom": "^16.8.3",
         "react-router-dom": "^4.3.1"

@@ -1,16 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { EmphasisBlock, Page, PanZoom, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, PanZoom, ScrollToMe } from "dnd-module";
 
 import PORT_CITY_MAP from "../img/port-city.png";
 import FORT_WAFFLEHEIM_MAP from "../img/fort-waffleheim.png";
 
 const NewFey = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="new-fey" />
-            <h1>New Fey</h1>
-            <h2>Port City</h2>
+            <h2>New Fey</h2>
+            <h3>Port City</h3>
             <PanZoom>
                 <img src={PORT_CITY_MAP} alt="port city map" />
             </PanZoom>
@@ -22,14 +22,14 @@ const NewFey = () => {
                 New Fey Guard present, in order to keep an eye on the merchants
                 dealing in the area.
             </p>
-            <h3>Main Road</h3>
+            <h4>Main Road</h4>
             <p>
                 This road cuts right through the center of Port City. Along the
                 sides of the road sport roadside marketplaces, street
                 entertainment, and beggars. It is common to be pick pocketed
                 along this road and strangers will be quick to warn newcomers.
             </p>
-            <h3>A: The Docks</h3>
+            <h4>A: The Docks</h4>
             <EmphasisBlock>
                 <p>
                     Rivers flow between great blocks of ice that make up the
@@ -47,7 +47,7 @@ const NewFey = () => {
                 the only one to make it more than halfway up was Madeline of
                 Waffelheim.
             </p>
-            <h3>B: The Armory</h3>
+            <h4>B: The Armory</h4>
             <EmphasisBlock>
                 <p>
                     Steam radiates off of the warmed metal door, water dripping
@@ -62,7 +62,7 @@ const NewFey = () => {
                 This shop takes custom orders and will for 10,000gp upgrade any
                 weapon or armor +1 from it's former value.
             </p>
-            <h3>C: Hiker Supply Store</h3>
+            <h4>C: Hiker Supply Store</h4>
             <EmphasisBlock>
                 <p>
                     This screams tourist trap. Trinkets line the walls. Flyers
@@ -70,7 +70,7 @@ const NewFey = () => {
                     Snowcrash Mountains.
                 </p>
             </EmphasisBlock>
-            <h3>D: Port City Institute</h3>
+            <h4>D: Port City Institute</h4>
             <EmphasisBlock>
                 <p>
                     A pure white building with the crest of Ney Fey lines the
@@ -93,7 +93,7 @@ const NewFey = () => {
                 impossible. They mountain is surrounded by a never ending
                 blizzard. It cannot be swayed by divine means.
             </p>
-            <h2>Fort Waffleheim</h2>
+            <h3>Fort Waffleheim</h3>
             <PanZoom>
                 <img src={FORT_WAFFLEHEIM_MAP} alt="fort waffleheim city map" />
             </PanZoom>
@@ -103,7 +103,7 @@ const NewFey = () => {
                 training to work as guides, bringing people into the mountains
                 to the north.
             </p>
-            <h3>A: The Fort</h3>
+            <h4>A: The Fort</h4>
             <EmphasisBlock>
                 <p>
                     Lashed together from frozen tree trunks, this fort is
@@ -112,7 +112,7 @@ const NewFey = () => {
                     march.
                 </p>
             </EmphasisBlock>
-            <h3>B: Waffle Hut</h3>
+            <h4>B: Waffle Hut</h4>
             <p>
                 Once inside you will be greeted by a jolly man named Klaus. He
                 owns the waffle hut and will sit you, tending to your every
@@ -120,29 +120,27 @@ const NewFey = () => {
                 gravy coming out of his ears. This is a favorite spot for
                 soldiers to relax, eat a good meal, and share stories.
             </p>
-            <h3>C: The White Fox Inn</h3>
-            <p>
-                <EmphasisBlock>
-                    <p>
-                        Lining the walls behind the bar are barrels, stacked
-                        high to the ceiling. Spigots pop out of each one. You
-                        see a slender elvish lady hold a goblet up to one as
-                        steaming hot wine, smelling of spices, flows out.
-                    </p>
-                    <p>
-                        Sitting at the bar, a cup in hand is a woman with bright
-                        red hair. She sips at a steaming cup, darts her eyes at
-                        you, and returns them to her cup.
-                    </p>
-                </EmphasisBlock>
+            <h4>C: The White Fox Inn</h4>
+            <EmphasisBlock>
                 <p>
-                    Sitting at the bar is Madeline. She is a seasoned guide
-                    through the mountains and the Tundra. Just coming off of a
-                    brutal tour, she is not in the mood to return for some time.
-                    If the players wish to hire her, it will take convincing.
+                    Lining the walls behind the bar are barrels, stacked high to
+                    the ceiling. Spigots pop out of each one. You see a slender
+                    elvish lady hold a goblet up to one as steaming hot wine,
+                    smelling of spices, flows out.
                 </p>
+                <p>
+                    Sitting at the bar, a cup in hand is a woman with bright red
+                    hair. She sips at a steaming cup, darts her eyes at you, and
+                    returns them to her cup.
+                </p>
+            </EmphasisBlock>
+            <p>
+                Sitting at the bar is Madeline. She is a seasoned guide through
+                the mountains and the Tundra. Just coming off of a brutal tour,
+                she is not in the mood to return for some time. If the players
+                wish to hire her, it will take convincing.
             </p>
-            <h2>New Fey Krossa Border</h2>
+            <h3>New Fey Krossa Border</h3>
             <EmphasisBlock>
                 <p>
                     The gravel road fades into frozen tundra. The trees begin to
@@ -151,7 +149,7 @@ const NewFey = () => {
                     crooked wooden sign, posted in the dirt. It reads, "Krossa".
                 </p>
             </EmphasisBlock>
-        </Page>
+        </Fragment>
     );
 };
 

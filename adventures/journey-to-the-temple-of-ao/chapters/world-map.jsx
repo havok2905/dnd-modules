@@ -1,18 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { Page, PanZoom, ScrollToMe } from "dnd-module";
+import { PanZoom, ScrollToMe } from "dnd-module";
 
 import WorldMapImage from "../img/world-map.jpg";
 
 const WorldMap = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="world-map" />
-            <h1>World Map</h1>
+            <h2>World Map</h2>
             <PanZoom>
                 <img src={WorldMapImage} alt="World Map" />
             </PanZoom>
-        </Page>
+        </Fragment>
     );
 };
 

@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { Page, ScrollToMe } from "dnd-module";
+import { ScrollToMe } from "dnd-module";
 
 const Factions = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="factions" />
-            <h1>Factions</h1>
-            <h2>Order of the Profane Soul</h2>
+            <h2>Factions</h2>
+            <h3>Order of the Profane Soul</h3>
             <p>
                 The Order of the Profane Soul is an ancient organization of
                 Blood Hunters. They have succumb to the darkness themselves in
@@ -18,7 +18,7 @@ const Factions = () => {
                 following a lead that may lend him to be rid of an ancient god
                 of destruction, and all gods that stand in their way.
             </p>
-            <h2>Fey Wildlands</h2>
+            <h3>Fey Wildlands</h3>
             <p>
                 The Fey Wildlands are the ancient home of the elves. Today the
                 most noble families live here, just off the coast of the main
@@ -28,7 +28,7 @@ const Factions = () => {
                 high elf king and wish to one day annex New Fey, to claim back
                 their kin.
             </p>
-            <h2>New Fey</h2>
+            <h3>New Fey</h3>
             <p>
                 The elves of New Fey migrated to the the northern half of the
                 continent ages ago. They yearned for independence from the high
@@ -41,7 +41,7 @@ const Factions = () => {
                 of the nomadic tribes in Krossa to help bolster their forces in
                 time of need.
             </p>
-        </Page>
+        </Fragment>
     );
 };
 

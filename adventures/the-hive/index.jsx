@@ -1,5 +1,12 @@
 import React, { Fragment } from "react";
-import { Footer, Page, TableOfContents } from "dnd-module";
+import {
+    Columns,
+    Footer,
+    Hero,
+    Page,
+    TableOfContents,
+    Tools
+} from "dnd-module";
 
 import Overview from "./chapters/overview.jsx";
 import ChapterOne from "./chapters/chapter-one.jsx";
@@ -9,22 +16,34 @@ import Creatures from "./chapters/creatures.jsx";
 
 import TABLE_OF_CONTENTS from "./constants/table-of-contents";
 
+import HeroImage from "./img/hero.jpg";
+
 const TheHive = () => {
     return (
         <Fragment>
+            <Hero src={HeroImage} alt="adventure cover image" />
             <Page>
                 <h1>The Hive</h1>
-                <TableOfContents
-                    contentsList={TABLE_OF_CONTENTS}
-                    hashReferencesSupported={false}
-                />
+                <Columns>
+                    <div>
+                        <Overview />
+                        <ChapterOne />
+                        <ChapterTwo />
+                        <ChapterThree />
+                        <Creatures />
+                    </div>
+                    <div>
+                        <h2>Table of Contents</h2>
+                        <TableOfContents
+                            contentsList={TABLE_OF_CONTENTS}
+                            hashReferencesSupported={false}
+                        />
+                        <h2>Tools</h2>
+                        <Tools />
+                    </div>
+                </Columns>
             </Page>
-            <Overview />
-            <ChapterOne />
-            <ChapterTwo />
-            <ChapterThree />
-            <Creatures />
-            <Footer scrollButton={true} quickRefButton={true} rollForm={true} />
+            <Footer scrollButton={true} rollForm={true} />
         </Fragment>
     );
 };

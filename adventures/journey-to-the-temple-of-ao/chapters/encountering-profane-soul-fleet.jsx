@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { Page, ScrollToMe } from "dnd-module";
+import { ScrollToMe } from "dnd-module";
 
 const EncounteringProfaneSoulFleet = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="encountering-profane-soul-fleet" />
-            <h1>Encountering Profane Soul Fleet</h1>
+            <h2>Encountering Profane Soul Fleet</h2>
             <p>
                 Attempting to fly over New Fey will cause the players to get
                 view of a fleet of small airships hovering in the air, five in
@@ -27,7 +27,7 @@ const EncounteringProfaneSoulFleet = () => {
                 overcoming this obstacle. She outlines explicit directions to
                 Ao's temple, and the trials that lay ahead.
             </p>
-        </Page>
+        </Fragment>
     );
 };
 

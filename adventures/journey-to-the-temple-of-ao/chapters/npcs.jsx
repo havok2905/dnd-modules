@@ -1,11 +1,6 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import {
-    CollapsableContainer,
-    MonsterBlock,
-    Page,
-    ScrollToMe
-} from "dnd-module";
+import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
 
 import MADELINE_CELESTE from "../constants/npcs/madeline-celeste";
 import DANIEL_RUDOLF from "../constants/npcs/daniel-rudolf";
@@ -16,9 +11,9 @@ import SIGI_ELLI from "../constants/npcs/sigi-elli";
 
 const Npcs = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="npcs" />
-            <h1>NPCs</h1>
+            <h2>NPCs</h2>
             <CollapsableContainer title="Madeline Celeste: Mountain Guide">
                 <MonsterBlock {...MADELINE_CELESTE} />
             </CollapsableContainer>
@@ -37,7 +32,7 @@ const Npcs = () => {
             <CollapsableContainer title="Sigi Elli: Inn Keeper">
                 <MonsterBlock {...SIGI_ELLI} />
             </CollapsableContainer>
-        </Page>
+        </Fragment>
     );
 };
 

@@ -1,14 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import { Page, ScrollToMe } from "dnd-module";
+import { ScrollToMe } from "dnd-module";
 
 const Overview = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="overview" />
-            <h1>Overview</h1>
+            <h2>Overview</h2>
             <ScrollToMe scrollActionString="backstory" />
-            <h2>Backstory</h2>
+            <h3>Backstory</h3>
             <p>
                 Several months ago, a devastating force overtook the continent.
                 Skyscraper tall cyclops titans appeared throughout the land,
@@ -37,7 +37,7 @@ const Overview = () => {
                 nefarious however.
             </p>
             <ScrollToMe scrollActionString="goals" />
-            <h2>Goals</h2>
+            <h3>Goals</h3>
             <ul>
                 <li>
                     Reach the Temple of Ao before the Order of the Profane Soul.
@@ -49,8 +49,8 @@ const Overview = () => {
                 <li>Leave Krossa, enroute to slay Enkiem</li>
             </ul>
             <ScrollToMe scrollActionString="pantheon" />
-            <h2>Pantheon</h2>
-            <h3>How Gods Work</h3>
+            <h3>Pantheon</h3>
+            <h4>How Gods Work</h4>
             <p>
                 In this adventure, gods and goddesses are positions of power, to
                 be filled when a mortal perishes that most closely identifies
@@ -78,7 +78,7 @@ const Overview = () => {
                 all gods split from that deity's will. The presence can be life
                 altering, and in some cases mind shattering.
             </p>
-            <h3>Ao: God of Creation</h3>
+            <h4>Ao: God of Creation</h4>
             <p>
                 Ao is the beginning. Ao created all of the lesser gods, and all
                 of creation by proxy. Ao is neutral and speaks with the voice of
@@ -87,7 +87,7 @@ const Overview = () => {
                 angels, humans, elves, dwarves, etc. Those who seek progression
                 for progression's sake can recieve Ao's blessing.
             </p>
-            <h3>Shar: Goddess of Trickery and Death</h3>
+            <h4>Shar: Goddess of Trickery and Death</h4>
             <p>
                 Though being the goddess of trickery and death, Shar represents
                 Ao's wish for struggle for creation and the belief that one
@@ -103,7 +103,7 @@ const Overview = () => {
                 Those who seek gain for others for other's sake can receive
                 Selune's blessing.
             </p>
-            <h3>Enkiem: Goddess of Destruction, Civilization, and Balance</h3>
+            <h4>Enkiem: Goddess of Destruction, Civilization, and Balance</h4>
             <p>
                 Enkiem is the Goddess of Destruction, Civilization, and Balance.
                 She exists as a foil to the mortal realms desire for
@@ -124,7 +124,7 @@ const Overview = () => {
                 Now aged, Sam has lost much of his power and was slain by Enkiem
                 upon her return, high in the mountains of Krossa.
             </p>
-            <h3>Maren: God of Life, Fire, and Inspiration</h3>
+            <h4>Maren: God of Life, Fire, and Inspiration</h4>
             <p>
                 In the absence of Sam's mother, this position in godhood lay
                 vacant for thousands of years. Upon Sam's death, he was found to
@@ -135,7 +135,7 @@ const Overview = () => {
                 personally, but rather help others discover their true potential
                 so that they may take on the job themselves.
             </p>
-        </Page>
+        </Fragment>
     );
 };
 

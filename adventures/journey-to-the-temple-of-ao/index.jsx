@@ -1,5 +1,12 @@
 import React, { Fragment } from "react";
-import { Footer, Page, TableOfContents } from "dnd-module";
+import {
+    Columns,
+    Footer,
+    Hero,
+    Page,
+    TableOfContents,
+    Tools
+} from "dnd-module";
 import { Overview } from "./chapters/overview.jsx";
 import { Prologue } from "./chapters/prologue.jsx";
 import { Factions } from "./chapters/factions.jsx";
@@ -15,29 +22,42 @@ import { Npcs } from "./chapters/npcs.jsx";
 
 import TABLE_OF_CONTENTS from "./constants/table-of-contents.js";
 
+import HeroImage from "./img/hero.png";
+
 const JourneyToTheTempleOfAo = () => {
     return (
         <Fragment>
+            <Hero src={HeroImage} alt="adventure cover image" />
             <Page>
                 <h1>Journey to the Temple of Ao</h1>
-                <TableOfContents
-                    contentsList={TABLE_OF_CONTENTS}
-                    hashReferencesSupported={false}
-                />
+                <Columns>
+                    <div>
+                        <Overview />
+                        <Prologue />
+                        <Factions />
+                        <WorldMap />
+                        <EncounteringProfaneSoulFleet />
+                        <SkyEncounters />
+                        <NewFey />
+                        <Krossa />
+                        <SamsCottage />
+                        <TempleOfAo />
+                        <CustomCreatures />
+                        <Npcs />
+                    </div>
+                    <div>
+                        <h2>Table of Contents</h2>
+                        <TableOfContents
+                            contentsList={TABLE_OF_CONTENTS}
+                            hashReferencesSupported={false}
+                        />
+                        <h2>Tools</h2>
+                        <Tools />
+                    </div>
+                </Columns>
             </Page>
-            <Overview />
-            <Prologue />
-            <Factions />
-            <WorldMap />
-            <EncounteringProfaneSoulFleet />
-            <SkyEncounters />
-            <NewFey />
-            <Krossa />
-            <SamsCottage />
-            <TempleOfAo />
-            <CustomCreatures />
-            <Npcs />
-            <Footer scrollButton={true} quickRefButton={true} rollForm={true} />
+
+            <Footer scrollButton={true} rollForm={true} />
         </Fragment>
     );
 };

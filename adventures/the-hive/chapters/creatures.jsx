@@ -1,11 +1,6 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import {
-    CollapsableContainer,
-    MonsterBlock,
-    Page,
-    ScrollToMe
-} from "dnd-module";
+import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
 
 import MYCONID_ADULT from "../constants/creatures/myconid-adult";
 import MYCONID_MASTER from "../constants/creatures/myconid-master";
@@ -16,37 +11,28 @@ import SLOAN from "../constants/creatures/sloan";
 
 const Creatures = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="creatures-and-npcs" />
-            <h1 id="creatures-and-npcs">Creatures and NPCs</h1>
-            <CollapsableContainer title="Myconid Adult" idSlug="myconid-adult">
+            <h2 id="creatures-and-npcs">Creatures and NPCs</h2>
+            <CollapsableContainer title="Myconid Adult">
                 <MonsterBlock {...MYCONID_ADULT} />
             </CollapsableContainer>
-            <CollapsableContainer title="Myconid Master" idSlug="myconid-adult">
+            <CollapsableContainer title="Myconid Master">
                 <MonsterBlock {...MYCONID_MASTER} />
             </CollapsableContainer>
-            <CollapsableContainer
-                title="Mage of the Dragon's Flame"
-                idSlug="mage-of-the-dragons-flame"
-            >
+            <CollapsableContainer title="Mage of the Dragon's Flame">
                 <MonsterBlock {...MAGE_OF_THE_DRAGONS_FLAME} />
             </CollapsableContainer>
-            <CollapsableContainer
-                title="Pirate of the Dragon's Flame"
-                idSlug="pirate-of-the-dragons-flame"
-            >
+            <CollapsableContainer title="Pirate of the Dragon's Flame">
                 <MonsterBlock {...PIRATE_OF_THE_DRAGONS_FLAME} />
             </CollapsableContainer>
-            <CollapsableContainer
-                title="Sloan's Elite Guard"
-                idSlug="sloans-elite-guard"
-            >
+            <CollapsableContainer title="Sloan's Elite Guard">
                 <MonsterBlock {...SLOANS_ELITE_GUARD} />
             </CollapsableContainer>
-            <CollapsableContainer title="Sloan" idSlug="sloan">
+            <CollapsableContainer title="Sloan">
                 <MonsterBlock {...SLOAN} />
             </CollapsableContainer>
-        </Page>
+        </Fragment>
     );
 };
 

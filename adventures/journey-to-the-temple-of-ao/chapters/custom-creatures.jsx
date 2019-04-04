@@ -1,11 +1,6 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import {
-    CollapsableContainer,
-    MonsterBlock,
-    Page,
-    ScrollToMe
-} from "dnd-module";
+import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
 
 import ARCTIC_FOX from "../constants/creatures/arctic-fox";
 import KROSSA_NOMAD from "../constants/creatures/krossa-nomad";
@@ -19,9 +14,9 @@ import PROFANE_SOUL_SHIP from "../constants/creatures/profane-soul-ship";
 
 const CustomCreatures = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="custom-creatures" />
-            <h1>Custom Creatures</h1>
+            <h2>Custom Creatures</h2>
             <CollapsableContainer title="Arctic Fox">
                 <MonsterBlock {...ARCTIC_FOX} />
             </CollapsableContainer>
@@ -49,7 +44,7 @@ const CustomCreatures = () => {
             <CollapsableContainer title="Profane Soul Ship">
                 <MonsterBlock {...PROFANE_SOUL_SHIP} />
             </CollapsableContainer>
-        </Page>
+        </Fragment>
     );
 };
 

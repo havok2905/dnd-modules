@@ -1,11 +1,11 @@
-import React from "react";
-import { EmphasisBlock, Page, ScrollToMe } from "dnd-module";
+import React, { Fragment } from "react";
+import { EmphasisBlock, ScrollToMe } from "dnd-module";
 
 const Prologue = () => {
     return (
-        <Page>
+        <Fragment>
             <ScrollToMe scrollActionString="prologue" />
-            <h1>Prologue</h1>
+            <h2>Prologue</h2>
             <EmphasisBlock>
                 <p>
                     We see a bluejay landing on a crooked branch, fluttering
@@ -48,7 +48,7 @@ const Prologue = () => {
                     making their way north.
                 </p>
             </EmphasisBlock>
-        </Page>
+        </Fragment>
     );
 };
 
