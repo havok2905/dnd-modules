@@ -12,7 +12,7 @@ import Overview from "./chapters/overview.jsx";
 import ChapterOne from "./chapters/chapter-one.jsx";
 import ChapterTwo from "./chapters/chapter-two.jsx";
 import ChapterThree from "./chapters/chapter-three.jsx";
-import Creatures from "./chapters/creatures.jsx";
+import CreaturesChapter from "./chapters/creatures.jsx";
 
 import TABLE_OF_CONTENTS from "./constants/table-of-contents";
 
@@ -30,7 +30,7 @@ const TheHive = () => {
                         <ChapterOne />
                         <ChapterTwo />
                         <ChapterThree />
-                        <Creatures />
+                        <CreaturesChapter />
                     </div>
                     <div>
                         <h2>Table of Contents</h2>

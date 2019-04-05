@@ -1,16 +1,13 @@
 import React, { Fragment } from "react";
 
-import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
+import {
+    CollapsableContainer,
+    Creatures,
+    MonsterBlock,
+    ScrollToMe
+} from "dnd-module";
 
-import ARCTIC_FOX from "../constants/creatures/arctic-fox";
-import KROSSA_NOMAD from "../constants/creatures/krossa-nomad";
-import NEW_FEY_GUARD from "../constants/creatures/new-fey-guard";
-import OWLBEAR_CUB from "../constants/creatures/owlbear-cub";
-import ORACLE_WORM from "../constants/creatures/oracle-worm";
-import PROFANE_SOUL_SOLDIER from "../constants/creatures/profane-soul-soldier";
 import PROFANE_SOUL_FLAG_SHIP from "../constants/creatures/profane-soul-flag-ship";
-import PROFANE_SOUL_MONSTROSITY from "../constants/creatures/profane-soul-monstrosity";
-import PROFANE_SOUL_SHIP from "../constants/creatures/profane-soul-ship";
 
 const CustomCreatures = () => {
     return (
@@ -18,31 +15,31 @@ const CustomCreatures = () => {
             <ScrollToMe scrollActionString="custom-creatures" />
             <h2>Custom Creatures</h2>
             <CollapsableContainer title="Arctic Fox">
-                <MonsterBlock {...ARCTIC_FOX} />
+                <MonsterBlock {...Creatures.ARCTIC_FOX} />
             </CollapsableContainer>
             <CollapsableContainer title="Krossa Nomad">
-                <MonsterBlock {...KROSSA_NOMAD} />
+                <MonsterBlock {...Creatures.ARCTIC_NOMAD} />
             </CollapsableContainer>
             <CollapsableContainer title="New Fey Guard">
-                <MonsterBlock {...NEW_FEY_GUARD} />
+                <MonsterBlock {...Creatures.ARCTIC_ELF_GUARD} />
             </CollapsableContainer>
             <CollapsableContainer title="Oracle Worm">
-                <MonsterBlock {...ORACLE_WORM} />
+                <MonsterBlock {...Creatures.ORACLE_WORM} />
             </CollapsableContainer>
             <CollapsableContainer title="Owlbear Cub">
-                <MonsterBlock {...OWLBEAR_CUB} />
+                <MonsterBlock {...Creatures.OWLBEAR_CUB} />
             </CollapsableContainer>
             <CollapsableContainer title="Profane Soul Soldier">
-                <MonsterBlock {...PROFANE_SOUL_SOLDIER} />
+                <MonsterBlock {...Creatures.PROFANE_SOUL_SOLDIER} />
             </CollapsableContainer>
             <CollapsableContainer title="Profane Soul Flagship">
                 <MonsterBlock {...PROFANE_SOUL_FLAG_SHIP} />
             </CollapsableContainer>
             <CollapsableContainer title="Profane Soul Monstrosity">
-                <MonsterBlock {...PROFANE_SOUL_MONSTROSITY} />
+                <MonsterBlock {...Creatures.PROFANE_SOUL_MONSTROSITY} />
             </CollapsableContainer>
             <CollapsableContainer title="Profane Soul Ship">
-                <MonsterBlock {...PROFANE_SOUL_SHIP} />
+                <MonsterBlock {...Creatures.PROFANE_SOUL_SHIP} />
             </CollapsableContainer>
         </Fragment>
     );

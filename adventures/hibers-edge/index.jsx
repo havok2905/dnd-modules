@@ -2,11 +2,13 @@ import React, { Fragment } from "react";
 import {
     CollapsableContainer,
     Columns,
+    Creatures,
     EmphasisBlock,
     Footer,
     Hero,
     ItemBlock,
     MonsterBlock,
+    Npcs,
     Page,
     PanZoom,
     RollTable,
@@ -17,17 +19,10 @@ import {
 
 import TABLE_OF_CONTENTS from "./constants/table-of-contents";
 
-import HERO_OF_LEGEND from "./constants/npcs/hero-of-legend";
 import TOM_SELNICK from "./constants/npcs/tom-selnick";
 import MIA_THE_BLACKSMITH from "./constants/npcs/mia-the-blacksmith";
 import INNKEEPER_MARTEL from "./constants/npcs/innkeeper-martel";
 import ELSA from "./constants/npcs/elsa";
-import ELSAS_CONSTRUCT from "./constants/npcs/elsas-construct";
-
-import KRAKEN_TENTACLE from "./constants/creatures/kraken-tentacle";
-import PRIEST_OF_THOR from "./constants/creatures/priest-of-thor";
-import CULT_OF_THE_DEEP_ONE_MEMBER from "./constants/creatures/cult-of-the-deep-one-member";
-import CULT_OF_THE_DEEP_ONE_MASTER from "./constants/creatures/cult-of-the-deep-one-master";
 
 import RANDOM_ENCOUNTERS from "./constants/roll-tables/random-encounters";
 
@@ -532,13 +527,13 @@ const HibersEdge = () => {
                         <ScrollToMe scrollActionString="npcs" />
                         <h2 id="npcs">NPCs</h2>
                         <CollapsableContainer title="Hero of Legend">
-                            <MonsterBlock {...HERO_OF_LEGEND} />
+                            <MonsterBlock {...Npcs.HERO_OF_LEGEND} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Elsa">
                             <MonsterBlock {...ELSA} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Elsa's Construct">
-                            <MonsterBlock {...ELSAS_CONSTRUCT} />
+                            <MonsterBlock {...Creatures.METAL_EAGLE} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Innkeeper Martel">
                             <MonsterBlock {...INNKEEPER_MARTEL} />
@@ -552,16 +547,20 @@ const HibersEdge = () => {
                         <ScrollToMe scrollActionString="custom-creatures" />
                         <h2 id="custom-creatures">Custom Creatures</h2>
                         <CollapsableContainer title="Kraken Tentacle">
-                            <MonsterBlock {...KRAKEN_TENTACLE} />
+                            <MonsterBlock {...Creatures.KRAKEN_TENTACLE} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Priest of Thor">
-                            <MonsterBlock {...PRIEST_OF_THOR} />
+                            <MonsterBlock {...Creatures.PRIEST_OF_THOR} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Cult of the Deep One Member">
-                            <MonsterBlock {...CULT_OF_THE_DEEP_ONE_MEMBER} />
+                            <MonsterBlock
+                                {...Creatures.CULT_OF_THE_DEEP_ONE_MEMBER}
+                            />
                         </CollapsableContainer>
                         <CollapsableContainer title="Cult of the Deep One Master">
-                            <MonsterBlock {...CULT_OF_THE_DEEP_ONE_MASTER} />
+                            <MonsterBlock
+                                {...Creatures.CULT_OF_THE_DEEP_ONE_MASTER}
+                            />
                         </CollapsableContainer>
                     </div>
                     <div>
