@@ -6,6 +6,7 @@ import {
     EmphasisBlock,
     Footer,
     Hero,
+    Items,
     ItemBlock,
     MonsterBlock,
     Npcs,
@@ -116,22 +117,11 @@ const HibersEdge = () => {
                             for Thor to better push her wares.
                         </p>
                         <h5>Inventory</h5>
-                        <ItemBlock
-                            name="Loki's Heavy Plate Armor"
-                            rarity="Wonderous"
-                            type="Plate Armor"
-                        >
+                        <ItemBlock {...Items.LOKIS_HEAVY_PLATE_ARMOR}>
                             <p>
                                 <strong>15000gp</strong>
                             </p>
-                            <p>
-                                18AC. This armor is jet black and can only be
-                                touched by those of chaotic alignment. Those who
-                                touch it with bare skin who are not chaotic,
-                                will instantly cause the skin and flesh to peel
-                                back in layers, killing the target. This process
-                                is slow, happening over several hours.
-                            </p>
+                            <p>{Items.LOKIS_HEAVY_PLATE_ARMOR.description}</p>
                         </ItemBlock>
                         <ItemBlock
                             name="Heavy Steel Shield"
@@ -159,18 +149,11 @@ const HibersEdge = () => {
                                 the hoard of the dragon Amunan.
                             </p>
                         </ItemBlock>
-                        <ItemBlock
-                            name="Sailor's Spear"
-                            rarity="Rare"
-                            type="Medium Shield"
-                        >
+                        <ItemBlock {...Items.SAILORS_SPEAR}>
                             <p>
                                 <strong>4000gp</strong>
                             </p>
-                            <p>
-                                +1 Spear, +3 against Aquatic Creatures. Thrown
-                                (range 20/60), Versatile (1d8). 1d6 Piercing.
-                            </p>
+                            <p>{Items.SAILORS_SPEAR.description}</p>
                         </ItemBlock>
                         <h4>The General Store</h4>
                         <EmphasisBlock>
@@ -507,22 +490,14 @@ const HibersEdge = () => {
                         </p>
                         <ScrollToMe scrollActionString="custom-items" />
                         <h2 id="custom-items">Custom Items</h2>
-                        <ItemBlock
-                            name="Marshmallow Capsule"
-                            rarity="Rare"
-                            type="Small Magic Item"
-                        >
-                            <p>
-                                Explodes into a pillow of Marshmallow 20ft x
-                                20ft under you. Reduces all fall damage to 0.
-                            </p>
+                        <ItemBlock {...Items.LIGHTNING_ABSORBTION_ROD}>
+                            <p>{Items.LIGHTNING_ABSORBTION_ROD.description}</p>
                         </ItemBlock>
-                        <ItemBlock
-                            name="Eye Patch of True Sight"
-                            rarity="Rare"
-                            type="Small Magic Item"
-                        >
-                            <p>Grants the wearer true sight.</p>
+                        <ItemBlock {...Items.MARSHMALLOW_CAPSULE}>
+                            <p>{Items.MARSHMALLOW_CAPSULE.description}</p>
+                        </ItemBlock>
+                        <ItemBlock {...Items.EYE_PATCH_OF_TRUE_SIGHT}>
+                            <p>{Items.EYE_PATCH_OF_TRUE_SIGHT.description}</p>
                         </ItemBlock>
                         <ScrollToMe scrollActionString="npcs" />
                         <h2 id="npcs">NPCs</h2>
