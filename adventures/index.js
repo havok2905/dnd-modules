@@ -8,6 +8,7 @@ import { Page } from "dnd-module/";
 import { TheHive } from "./the-hive/index.jsx";
 import { HibersEdge } from "./hibers-edge/index.jsx";
 import { JourneyToTheTempleOfAo } from "./journey-to-the-temple-of-ao/index.jsx";
+import { LightUpTheNight } from "./light-up-the-night/index.jsx";
 
 const ModulesPage = () => {
     return (
@@ -26,6 +27,9 @@ const ModulesPage = () => {
                         Journey To The Temple Of Ao
                     </Link>
                 </li>
+                <li>
+                    <Link to="/light-up-the-night">Light up the Night</Link>
+                </li>
             </ul>
         </Page>
     );
@@ -41,6 +45,7 @@ render(
                 path="/journey-to-the-temple-of-ao"
                 component={JourneyToTheTempleOfAo}
             />
+            <Route path="/light-up-the-night" component={LightUpTheNight} />
         </Fragment>
     </HashRouter>,
     document.getElementById("root")

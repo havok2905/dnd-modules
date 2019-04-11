@@ -1,51 +1,43 @@
 import React, { Fragment } from "react";
-import { Footer, Page } from "dnd-module";
+import { Columns, Footer, Hero, Page, Tools } from "dnd-module";
+import { ThePalace } from "./chapters/the-palace.jsx";
+import { Habarashi } from "./chapters/habarashi.jsx";
+import { BossRush } from "./chapters/boss-rush.jsx";
+import { FightWithEnkiem } from "./chapters/fight-with-enkiem.jsx";
+import { NpcsPage } from "./chapters/npcs.jsx";
+import { CustomCreatures } from "./chapters/custom-creatures.jsx";
+import { CustomItems } from "./chapters/custom-items.jsx";
+import { SloanAndBarry } from "./chapters/sloan-and-barry.jsx";
+import { Epilogue } from "./chapters/epilogue.jsx";
+
+import HERO_IMAGE from "./img/hero.png";
 
 const LightUpTheNight = () => {
     return (
         <Fragment>
+            <Hero src={HERO_IMAGE} alt="cover image" />
             <Page>
                 <h1>Light Up The Night</h1>
+                <Columns>
+                    <div>
+                        <h2>The Temple of Maren</h2>
+                        <h2>The Temple of Enkiem</h2>
+                        <Habarashi />
+                        <ThePalace />
+                        <SloanAndBarry />
+                        <BossRush />
+                        <FightWithEnkiem />
+                        <CustomItems />
+                        <CustomCreatures />
+                        <NpcsPage />
+                        <Epilogue />
+                    </div>
+                    <div>
+                        <Tools />
+                    </div>
+                </Columns>
             </Page>
-            <Page>
-                <h1>The Temple of Maren</h1>
-            </Page>
-            <Page>
-                <h1>The Temple of Enkiem</h1>
-            </Page>
-            <Page>
-                <h1>Habarashi</h1>
-                <h2>The City Walls</h2>
-                <h2>The Market District</h2>
-                <h2>The Artificer District</h2>
-                <h2>The Royal District</h2>
-                <h2>The University District</h2>
-                <h2>The Military District</h2>
-            </Page>
-            <Page>
-                <h1>The Palace</h1>
-            </Page>
-            <Page>
-                <h1>Boss Rush: The League of 7 Disgruntled Villains</h1>
-                <h2>Maeter</h2>
-                <h2>The Buff Owl Bear</h2>
-                <h2>The Red Dragon</h2>
-                <h2>Boo Raddley</h2>
-                <h2>Felicia</h2>
-                <h2>The Aboleth</h2>
-                <h2>The President of Devry</h2>
-            </Page>
-            <Page>
-                <h1>Fight With Enkiem</h1>
-                <h2>Stage 1</h2>
-                <h2>Stage 2</h2>
-                <h2>Stage 3</h2>
-                <h2>Enkiem's Death</h2>
-            </Page>
-            <Page>
-                <h1>Epilogue</h1>
-            </Page>
-            <Footer scrollButton={true} quickRefButton={true} rollForm={true} />
+            <Footer />
         </Fragment>
     );
 };
