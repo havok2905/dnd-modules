@@ -1,10 +1,14 @@
 import React, { Fragment } from "react";
 import { CollapsableContainer, Creatures, MonsterBlock } from "dnd-module";
+import Archer from "../constants/creatures/archer";
 
 const CustomCreatures = () => {
     return (
         <Fragment>
             <h2>Custom Creatures</h2>
+            <CollapsableContainer title="Archer">
+                <MonsterBlock {...Archer} />
+            </CollapsableContainer>
             <CollapsableContainer title="Demon Hound">
                 <MonsterBlock {...Creatures.DEMON_HOUND} />
             </CollapsableContainer>
