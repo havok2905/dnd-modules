@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import { Columns, Footer, Hero, Page, Tools } from "dnd-module";
+import { TheTempleOfMaren } from "./chapters/the-temple-of-maren.jsx";
+import { TheTempleOfEnkiem } from "./chapters/the-temple-of-enkiem.jsx";
 import { ThePalace } from "./chapters/the-palace.jsx";
 import { Habarashi } from "./chapters/habarashi.jsx";
 import { BossRush } from "./chapters/boss-rush.jsx";
@@ -20,8 +22,8 @@ const LightUpTheNight = () => {
                 <h1>Light Up The Night</h1>
                 <Columns>
                     <div>
-                        <h2>The Temple of Maren</h2>
-                        <h2>The Temple of Enkiem</h2>
+                        <TheTempleOfMaren />
+                        <TheTempleOfEnkiem />
                         <Habarashi />
                         <ThePalace />
                         <SloanAndBarry />
