@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock } from "dnd-module";
+import { CollapsableContainer, EmphasisBlock, MonsterBlock } from "dnd-module";
+import EnkiemStage1 from "../constants/enkiem/enkiem-stage-1";
+import EnkiemStage2 from "../constants/enkiem/enkiem-stage-2";
+import EnkiemStage3 from "../constants/enkiem/enkiem-stage-3";
 
 const FightWithEnkiem = () => {
     return (
@@ -32,6 +35,9 @@ const FightWithEnkiem = () => {
                 in a 15 foot radius. Each inside the radius may make a DC15 CON
                 saving throw or take 2d12 necrotic damage.
             </p>
+            <CollapsableContainer title="Enkiem Stage 1">
+                <MonsterBlock {...EnkiemStage1} />
+            </CollapsableContainer>
             <h3>Stage 2: The Goddess</h3>
             <EmphasisBlock>
                 <p>
@@ -49,6 +55,9 @@ const FightWithEnkiem = () => {
                 outside will also be made aware of her presence, making their
                 way towards the battle to watch.
             </p>
+            <CollapsableContainer title="Enkiem Stage 2">
+                <MonsterBlock {...EnkiemStage2} />
+            </CollapsableContainer>
             <h3>Stage 3: The Monster</h3>
             <p>This will trigger when Enkiem is down to 100 HP.</p>
             <p>
@@ -83,6 +92,9 @@ const FightWithEnkiem = () => {
                 As a result, when a player falls, they are dragged back into the
                 crowd, healed to full health.
             </p>
+            <CollapsableContainer title="Enkiem Stage 3">
+                <MonsterBlock {...EnkiemStage3} />
+            </CollapsableContainer>
             <h3>Enkiem's Death</h3>
             <EmphasisBlock>
                 <p>
