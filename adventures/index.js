@@ -9,6 +9,7 @@ import { TheHive } from "./the-hive/index.jsx";
 import { HibersEdge } from "./hibers-edge/index.jsx";
 import { JourneyToTheTempleOfAo } from "./journey-to-the-temple-of-ao/index.jsx";
 import { LightUpTheNight } from "./light-up-the-night/index.jsx";
+import { SilverCreek } from "./silver-creek/index.jsx";
 
 const ModulesPage = () => {
     return (
@@ -31,6 +32,12 @@ const ModulesPage = () => {
                     <Link to="/light-up-the-night">Light up the Night</Link>
                 </li>
             </ul>
+            <h2>Stand Alone Adventures</h2>
+            <ul>
+                <li>
+                    <Link to="/silver-creek">Silver Creek</Link>
+                </li>
+            </ul>
         </Page>
     );
 };
@@ -46,6 +53,7 @@ render(
                 component={JourneyToTheTempleOfAo}
             />
             <Route path="/light-up-the-night" component={LightUpTheNight} />
+            <Route path="/silver-creek" component={SilverCreek} />
         </Fragment>
     </HashRouter>,
     document.getElementById("root")

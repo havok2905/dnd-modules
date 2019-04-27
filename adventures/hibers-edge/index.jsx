@@ -549,7 +549,7 @@ const HibersEdge = () => {
                     </div>
                 </Columns>
             </Page>
-            <Footer scrollButton={true} rollForm={true} />
+            <Footer />
         </Fragment>
     );
 };

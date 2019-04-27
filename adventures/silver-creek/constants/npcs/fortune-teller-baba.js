@@ -1,0 +1,30 @@
+export default {
+    ac: 8,
+    actions: [],
+    alignment: "Chaotic Neutral",
+    challenge: "1/8",
+    conditionImmunities: [],
+    damageImmunities: [],
+    damageResistances: [],
+    damageWeaknesses: [],
+    description: "",
+    features: [],
+    hp: 5,
+    inventory: ["Deck of Tarot Cards", "15 Copper Pieces"],
+    languages: ["Common", "Celestial"],
+    reactions: [],
+    savingThrows: [],
+    senses: [],
+    size: "Medium",
+    skills: ["Insight +10"],
+    speed: "30 ft.",
+    stats: {
+        str: 7,
+        dex: 8,
+        con: 9,
+        int: 14,
+        wis: 18,
+        cha: 17
+    },
+    type: "Human"
+};
