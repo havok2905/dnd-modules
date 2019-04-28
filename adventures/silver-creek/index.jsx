@@ -1,6 +1,14 @@
 import React, { Fragment } from "react";
 
-import { Columns, Footer, Hero, Page, PanZoom, Tools } from "dnd-module";
+import {
+    Columns,
+    Footer,
+    Hero,
+    Page,
+    RollTable,
+    PanZoom,
+    Tools
+} from "dnd-module";
 
 import { Overview } from "./chapters/overview.jsx";
 import { Intro } from "./chapters/intro.jsx";
@@ -8,6 +16,9 @@ import { Factions } from "./chapters/factions.jsx";
 import { TheTownOfSilverCreek } from "./chapters/the-town-of-silver-creek.jsx";
 import { Creatures } from "./chapters/creatures.jsx";
 import { Characters } from "./chapters/characters.jsx";
+
+import CountryRandomEncounters from "./constants/roll-tables/country-random-encounters";
+import TownCentralRandomEncounters from "./constants/roll-tables/town-central-random-encounters";
 
 import HeroImage from "./img/hero.png";
 
@@ -30,7 +41,12 @@ export const SilverCreek = () => {
                         <Intro />
                         <Factions />
                         <TheTownOfSilverCreek />
+                        <h2>The Country</h2>
+                        <h3>Random Encounters</h3>
+                        <RollTable items={CountryRandomEncounters} />
                         <h2>Town Central</h2>
+                        <h3>Random Encounters</h3>
+                        <RollTable items={TownCentralRandomEncounters} />
                         <h3>Blacksmith</h3>
                         <h4>Weapons</h4>
                         <table className="table">

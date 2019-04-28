@@ -9,6 +9,7 @@ export const Creatures = () => {
                 <li>Blink Dog</li>
                 <li>Bone Devil</li>
                 <li>Cultist</li>
+                <li>Giant Scorpion</li>
                 <li>Ghost</li>
                 <li>Hell Hound</li>
                 <li>Imp</li>
@@ -16,7 +17,6 @@ export const Creatures = () => {
                 <li>Lemure</li>
                 <li>Nightmare</li>
                 <li>Poisonous Snake</li>
-                <li>Priest</li>
                 <li>Raven</li>
                 <li>Red Shadow Dragon</li>
                 <li>Riding Horse</li>
