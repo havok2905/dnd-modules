@@ -278,21 +278,6 @@ export const TownCentral = () => {
                 <li>1 Pistol</li>
                 <li>20 Bullets</li>
             </ul>
-            <h3>Dust Storm Rail Station</h3>
-            <h4>Dragon Attack</h4>
-            <p>
-                Along the Dust Storm Rail, the train will, every so often, fall
-                under attack by a Red Shadow Dragon. The train is heavily
-                armored and unaffected by the attacks, but measures are still
-                taken to fend off the creature as to not bring it into town. The
-                train will stop and dozens of men will pile out equipped with
-                power spear guns, damaging it enough to make it flee.
-            </p>
-            <p>
-                If the players are present for an attack, they will be asked to
-                join, handed a spear gun. They cannot keep this and will be
-                asked to return it once the task is done.
-            </p>
             <h3>General Store and Pharmacy</h3>
             <PanZoom>
                 <img src={GeneralStore} alt="General Store Map" />
