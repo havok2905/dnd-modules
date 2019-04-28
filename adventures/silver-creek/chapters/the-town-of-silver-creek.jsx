@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
+import { PanZoom, RollTable } from "dnd-module";
 
-import { PanZoom } from "dnd-module";
+import CountryRandomEncounters from "../constants/roll-tables/country-random-encounters";
 
 import SilverCreekMineImage from "../img/silver-creek-mine.png";
 
@@ -69,6 +70,9 @@ export const TheTownOfSilverCreek = () => {
                 The people refer to the local stretch of the rail as Dust Storm
                 Rail.
             </p>
+            <h2>The Country</h2>
+            <h3>Random Encounters</h3>
+            <RollTable items={CountryRandomEncounters} />
         </Fragment>
     );
 };
