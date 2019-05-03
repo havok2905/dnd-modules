@@ -79,6 +79,10 @@ export const Factions = () => {
                 is to come. These worshipers are of descendance of the originals
                 cultists, many who are still employed at the mines.
             </p>
+            <p>
+                As of recent, the cult of Asmodeous has begun to experiment with
+                cannibalism.
+            </p>
             <h3>The Scarlet Ghost Gang</h3>
             <p>
                 The Scarlet Ghost Gang began as an effort of a select few
