@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Columns, Footer, Hero, Page, Tools } from "dnd-module";
+import { Columns, Footer, Hero, Page, PanZoom, Tools } from "dnd-module";
 
 import { Overview } from "./chapters/overview.jsx";
 import { Intro } from "./chapters/intro.jsx";
@@ -7,6 +7,7 @@ import { Hook } from "./chapters/hook.jsx";
 import { Factions } from "./chapters/factions.jsx";
 import { TheTownOfSilverCreek } from "./chapters/the-town-of-silver-creek.jsx";
 import { TownCentral } from "./chapters/town-central.jsx";
+import { SilverCreekMine } from "./chapters/silver-creek-mine.jsx";
 import { RazorbackRidge } from "./chapters/razorback-ridge.jsx";
 import { DustStormRail } from "./chapters/dust-storm-rail.jsx";
 import { ChurchOfTheDawn } from "./chapters/church-of-the-dawn.jsx";
@@ -32,9 +33,7 @@ export const SilverCreek = () => {
                         <Factions />
                         <TheTownOfSilverCreek />
                         <TownCentral />
-                        <h2>The Silver Creek Mine</h2>
-                        <h3>The Lobby</h3>
-                        <h3>The Mines</h3>
+                        <SilverCreekMine />
                         <RazorbackRidge />
                         <DustStormRail />
                         <ChurchOfTheDawn />
