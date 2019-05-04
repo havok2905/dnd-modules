@@ -21,6 +21,7 @@ export const Creatures = () => {
                 <li>Red Shadow Dragon</li>
                 <li>Riding Horse</li>
                 <li>Scarecrow</li>
+                <li>Swarm of Bats</li>
             </ul>
         </Fragment>
     );
