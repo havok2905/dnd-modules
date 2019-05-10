@@ -103,6 +103,7 @@ export const Characters = () => {
                 Tim grew up in the desert wastelands and is an expert hunter. He
                 is one of the few that know how to survive in the wastes.
             </p>
+            <p>He calls his ranch the Ranch at Cucumundo.</p>
             <CollapsableContainer>
                 <MonsterBlock {...TimMacDougel} />
             </CollapsableContainer>
