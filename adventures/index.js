@@ -5,6 +5,7 @@ import { HashRouter, Route, Link } from "react-router-dom";
 
 import { Page } from "dnd-module/";
 
+import { CircleBridge } from "./circle-bridge/index.jsx";
 import { TheHive } from "./the-hive/index.jsx";
 import { HibersEdge } from "./hibers-edge/index.jsx";
 import { JourneyToTheTempleOfAo } from "./journey-to-the-temple-of-ao/index.jsx";
@@ -35,6 +36,9 @@ const ModulesPage = () => {
             <h2>Stand Alone Adventures</h2>
             <ul>
                 <li>
+                    <Link to="/circle-bridge">Circle Bridge</Link>
+                </li>
+                <li>
                     <Link to="/silver-creek">Silver Creek</Link>
                 </li>
             </ul>
@@ -46,6 +50,7 @@ render(
     <HashRouter basename="/dnd-modules">
         <Fragment>
             <Route path="/" exact component={ModulesPage} />
+            <Route path="/circle-bridge" component={CircleBridge} />
             <Route path="/the-hive" component={TheHive} />
             <Route path="/hibers-edge" component={HibersEdge} />
             <Route
