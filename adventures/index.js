@@ -10,6 +10,7 @@ import { TheHive } from "./the-hive/index.jsx";
 import { HibersEdge } from "./hibers-edge/index.jsx";
 import { JourneyToTheTempleOfAo } from "./journey-to-the-temple-of-ao/index.jsx";
 import { LightUpTheNight } from "./light-up-the-night/index.jsx";
+import { NewYork } from "./new-york/index.jsx";
 import { SilverCreek } from "./silver-creek/index.jsx";
 
 const ModulesPage = () => {
@@ -39,6 +40,9 @@ const ModulesPage = () => {
                     <Link to="/circle-bridge">Circle Bridge</Link>
                 </li>
                 <li>
+                    <Link to="/new-york">New York</Link>
+                </li>
+                <li>
                     <Link to="/silver-creek">Silver Creek</Link>
                 </li>
             </ul>
@@ -58,6 +62,7 @@ render(
                 component={JourneyToTheTempleOfAo}
             />
             <Route path="/light-up-the-night" component={LightUpTheNight} />
+            <Route path="/new-york" component={NewYork} />
             <Route path="/silver-creek" component={SilverCreek} />
         </Fragment>
     </HashRouter>,
