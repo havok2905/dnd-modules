@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import {
     CollapsableContainer,
     Columns,
+    Creatures,
     EmphasisBlock,
     Footer,
     MonsterBlock,
@@ -11,12 +12,8 @@ import {
 } from "dnd-module";
 
 import CityRandomEncounters from "./constants/roll-tables/city-random-encounters";
-import Car from "./constants/creatures/car";
 import Gozer from "./constants/creatures/gozer";
 import GozerStage2 from "./constants/creatures/gozer-stage-2";
-import Helicopter from "./constants/creatures/helicopter";
-import PoliceOfficer from "./constants/creatures/police-officer";
-import SlimeSpectre from "./constants/creatures/slime-spectre";
 
 export const NewYork = () => {
     return (
@@ -98,6 +95,9 @@ export const NewYork = () => {
                             <li>(MM: ) Wraith</li>
                         </ul>
                         <h2>Custom Creatures</h2>
+                        <CollapsableContainer title="Car">
+                            <MonsterBlock {...Creatures.CAR} />
+                        </CollapsableContainer>
                         <CollapsableContainer title="Gozer">
                             <MonsterBlock {...Gozer} />
                         </CollapsableContainer>
@@ -105,16 +105,13 @@ export const NewYork = () => {
                             <MonsterBlock {...GozerStage2} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Helicopter">
-                            <MonsterBlock {...Helicopter} />
-                        </CollapsableContainer>
-                        <CollapsableContainer title="Car">
-                            <MonsterBlock {...Car} />
+                            <MonsterBlock {...Creatures.HELICOPTER} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Police Officer">
-                            <MonsterBlock {...PoliceOfficer} />
+                            <MonsterBlock {...Creatures.POLICE_OFFICER} />
                         </CollapsableContainer>
                         <CollapsableContainer title="Slime Spectre">
-                            <MonsterBlock {...SlimeSpectre} />
+                            <MonsterBlock {...Creatures.SLIME_SPECTRE} />
                         </CollapsableContainer>
                     </div>
                     <div>
