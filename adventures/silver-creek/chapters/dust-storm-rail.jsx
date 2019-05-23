@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
-import { PanZoom } from "dnd-module";
+import { PanZoom, ScrollToMe } from "dnd-module";
 
 import DustStormRailImage from "../img/dust-storm-rail.png";
 
 export const DustStormRail = () => {
     return (
         <Fragment>
-            <h2>The Dust Storm Rail</h2>
+            <ScrollToMe scrollActionString="dust-storm-rail" />
+            <h2 id="dust-storm-rail">The Dust Storm Rail</h2>
             <PanZoom>
                 <img src={DustStormRailImage} alt="Dust Storm Rail Map" />
             </PanZoom>

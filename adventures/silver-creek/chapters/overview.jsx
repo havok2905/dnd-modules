@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
+import { ScrollToMe } from "dnd-module";
 
 export const Overview = () => {
     return (
         <Fragment>
-            <h2>Overview</h2>
+            <ScrollToMe scrollActionString="overview" />
+            <h2 id="overview">Overview</h2>
             <p>
                 <strong>Suggested Level: 3</strong>
             </p>

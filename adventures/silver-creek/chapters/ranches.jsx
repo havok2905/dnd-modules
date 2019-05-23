@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
+import { ScrollToMe } from "dnd-module";
 
 export const Ranches = () => {
     return (
         <Fragment>
-            <h2>MacDougel Ranch & Jackelfort Ranch</h2>
+            <ScrollToMe scrollActionString="ranches" />
+            <h2 id="ranches">MacDougel Ranch & Jackelfort Ranch</h2>
             <p>
                 Both of these ranches are currently in a feud with one another.
                 Once great friends, meeting weekly for dice, stories, and good

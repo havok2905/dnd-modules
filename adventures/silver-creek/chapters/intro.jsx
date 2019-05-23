@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
+import { ScrollToMe } from "dnd-module";
 
 export const Intro = () => {
     return (
         <Fragment>
-            <h2>Intro</h2>
+            <ScrollToMe scrollActionString="intro" />
+            <h2 id="intro">Intro</h2>
             <p>
                 Dust whips up, melding with the billowing smoke of the steam
                 engine as it barrels through the wastes. It's horn blares with a

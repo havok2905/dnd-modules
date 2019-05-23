@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom, RollTable } from "dnd-module";
+import { EmphasisBlock, PanZoom, RollTable, ScrollToMe } from "dnd-module";
 
 import TownCentralRandomEncounters from "../constants/roll-tables/town-central-random-encounters";
 
@@ -11,7 +11,8 @@ import SaloonLevel2Image from "../img/saloon-level-2.png";
 export const TownCentral = () => {
     return (
         <Fragment>
-            <h2>Town Central</h2>
+            <ScrollToMe scrollActionString="town-central" />
+            <h2 id="town-central">Town Central</h2>
             <h3>Random Encounters</h3>
             <RollTable items={TownCentralRandomEncounters} />
             <h3>Fortune Teller Baba</h3>

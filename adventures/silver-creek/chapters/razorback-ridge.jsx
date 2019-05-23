@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
-import { PanZoom } from "dnd-module";
+import { PanZoom, ScrollToMe } from "dnd-module";
 
 import RazorbackRidgeImage from "../img/razorback-ridge.png";
 
 export const RazorbackRidge = () => {
     return (
         <Fragment>
-            <h2>Razorback Ridge</h2>
+            <ScrollToMe scrollActionString="razorback-ridge" />
+            <h2 id="razorback-ridge">Razorback Ridge</h2>
             <PanZoom>
                 <img src={RazorbackRidgeImage} alt="Razorback Ridge Map" />
             </PanZoom>

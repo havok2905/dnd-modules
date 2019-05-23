@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { CollapsableContainer, MonsterBlock } from "dnd-module";
+import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
 
 import FortuneTellerBaba from "../constants/npcs/fortune-teller-baba";
 import GendryMasters from "../constants/npcs/gendry-masters";
@@ -16,7 +16,8 @@ import TracyMelrose from "../constants/npcs/tracy-melrose";
 export const Characters = () => {
     return (
         <Fragment>
-            <h2>Characters</h2>
+            <ScrollToMe scrollActionString="characters" />
+            <h2 id="characters">Characters</h2>
             <h3>Baba ( Fortune Teller )</h3>
             <CollapsableContainer>
                 <MonsterBlock {...FortuneTellerBaba} />

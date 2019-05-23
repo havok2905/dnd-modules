@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom } from "dnd-module";
+import { EmphasisBlock, PanZoom, ScrollToMe } from "dnd-module";
 
 import GreatTomahawkRiverImage from "../img/great-tomahawk-river.png";
 
 export const GreatTomahawkRiver = () => {
     return (
         <Fragment>
-            <h2>Great Tomahawk River</h2>
+            <ScrollToMe scrollActionString="great-tomahawk-river" />
+            <h2 id="great-tomahawk-river">Great Tomahawk River</h2>
             <PanZoom>
                 <img
                     src={GreatTomahawkRiverImage}

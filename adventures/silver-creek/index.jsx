@@ -1,5 +1,12 @@
 import React, { Fragment } from "react";
-import { Columns, Footer, Hero, Page, PanZoom, Tools } from "dnd-module";
+import {
+    Columns,
+    Footer,
+    Hero,
+    Page,
+    TableOfContents,
+    Tools
+} from "dnd-module";
 
 import { Overview } from "./chapters/overview.jsx";
 import { Intro } from "./chapters/intro.jsx";
@@ -16,6 +23,8 @@ import { GreatTomahawkRiver } from "./chapters/great-tomahawk-river.jsx";
 import { RuinsOfAsmodeous } from "./chapters/ruins-of-asmodeous.jsx";
 import { Creatures } from "./chapters/creatures.jsx";
 import { Characters } from "./chapters/characters.jsx";
+
+import TABLE_OF_CONTENTS from "./constants/table-of-contents/table-of-contents";
 
 import HeroImage from "./img/hero.png";
 
@@ -44,6 +53,11 @@ export const SilverCreek = () => {
                         <Creatures />
                     </div>
                     <div>
+                        <h2>Table of Contents</h2>
+                        <TableOfContents
+                            contentsList={TABLE_OF_CONTENTS}
+                            hashReferencesSupported={false}
+                        />
                         <h2>Tools</h2>
                         <Tools />
                     </div>

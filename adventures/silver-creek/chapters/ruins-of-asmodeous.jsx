@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom } from "dnd-module";
+import { PanZoom, ScrollToMe } from "dnd-module";
 
 import RuinsOfAsmodeousBasement from "../img/ruins-of-asmodeous-basement.png";
 import RuinsOfAsmodeousGroundFloor from "../img/ruins-of-asmodeous-ground-floor.png";
@@ -8,7 +8,8 @@ import RuinsOfAsmodeousRoof from "../img/ruins-of-asmodeous-roof.png";
 export const RuinsOfAsmodeous = () => {
     return (
         <Fragment>
-            <h2>Ruins of Asmodeous</h2>
+            <ScrollToMe scrollActionString="ruins-of-asmodeous" />
+            <h2 id="ruins-of-asmodeous">Ruins of Asmodeous</h2>
             <p>
                 The Ruins of Asmodeous have been abandoned for over two hundred
                 years. As of late, the temple has been back under use. Weekly

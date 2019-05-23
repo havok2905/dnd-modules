@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, RollTable } from "dnd-module";
+import { PanZoom, RollTable, ScrollToMe } from "dnd-module";
 
 import MinesRandomEncounters from "../constants/roll-tables/mines-random-encounters";
 
@@ -8,7 +8,8 @@ import SilverCreekMinesImage from "../img/silver-creek-mines.png";
 export const SilverCreekMine = () => {
     return (
         <Fragment>
-            <h2>The Silver Creek Mine</h2>
+            <ScrollToMe scrollActionString="silver-creek-mine" />
+            <h2 id="silver-creek-mine">The Silver Creek Mine</h2>
             <h3>The Mines</h3>
             <PanZoom>
                 <img src={SilverCreekMinesImage} alt="Silver Creek Mines Map" />

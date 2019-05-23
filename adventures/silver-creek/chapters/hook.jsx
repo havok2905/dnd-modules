@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock } from "dnd-module";
+import { EmphasisBlock, ScrollToMe } from "dnd-module";
 
 export const Hook = () => {
     return (
         <Fragment>
-            <h2>Hook</h2>
+            <ScrollToMe scrollActionString="hook" />
+            <h2 id="hook">Hook</h2>
             <EmphasisBlock>
                 <p>
                     The great plains of Silver Creek speed past your windows.

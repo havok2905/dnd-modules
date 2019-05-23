@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
+import { ScrollToMe } from "dnd-module";
 
 export const Factions = () => {
     return (
         <Fragment>
-            <h2>Major Factions</h2>
+            <ScrollToMe scrollActionString="factions" />
+            <h2 id="factions">Major Factions</h2>
             <h3>The Town of Silver Creek</h3>
             <p>
                 The Town of Silver Creek is under pressure from a number of

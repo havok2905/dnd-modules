@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom } from "dnd-module";
+import { EmphasisBlock, PanZoom, ScrollToMe } from "dnd-module";
 
 import ChurchOfTheDawnImage from "../img/church-of-the-dawn.png";
 
 export const ChurchOfTheDawn = () => {
     return (
         <Fragment>
-            <h2>Church of the Dawn</h2>
+            <ScrollToMe scrollActionString="church-of-the-dawn" />
+            <h2 id="church-of-the-dawn">Church of the Dawn</h2>
             <h3>Temple to Lathander</h3>
             <PanZoom>
                 <img src={ChurchOfTheDawnImage} alt="Church of the Dawn Map" />
