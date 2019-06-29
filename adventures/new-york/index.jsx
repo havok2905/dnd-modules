@@ -3,6 +3,7 @@ import {
     CollapsableContainer,
     Columns,
     Creatures,
+    DmScreen,
     EmphasisBlock,
     Footer,
     MonsterBlock,
@@ -120,6 +121,7 @@ export const NewYork = () => {
                     </div>
                 </Columns>
             </Page>
+            <DmScreen contentsList={null} hashReferencesSupported={null} />
             <Footer />
         </Fragment>
     );

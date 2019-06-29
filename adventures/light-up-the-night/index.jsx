@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Columns, Footer, Hero, Page, Tools } from "dnd-module";
+import { DmScreen, Footer, Hero, Page } from "dnd-module";
 import { TheTempleOfMaren } from "./chapters/the-temple-of-maren.jsx";
 import { TheTempleOfEnkiem } from "./chapters/the-temple-of-enkiem.jsx";
 import { ThePalace } from "./chapters/the-palace.jsx";
@@ -20,25 +20,19 @@ const LightUpTheNight = () => {
             <Hero src={HERO_IMAGE} alt="cover image" />
             <Page>
                 <h1>Light Up The Night</h1>
-                <Columns>
-                    <div>
-                        <TheTempleOfMaren />
-                        <TheTempleOfEnkiem />
-                        <Habarashi />
-                        <ThePalace />
-                        <SloanAndBarry />
-                        <BossRush />
-                        <FightWithEnkiem />
-                        <CustomItems />
-                        <CustomCreatures />
-                        <NpcsPage />
-                        <Epilogue />
-                    </div>
-                    <div>
-                        <Tools />
-                    </div>
-                </Columns>
+                <TheTempleOfMaren />
+                <TheTempleOfEnkiem />
+                <Habarashi />
+                <ThePalace />
+                <SloanAndBarry />
+                <BossRush />
+                <FightWithEnkiem />
+                <CustomItems />
+                <CustomCreatures />
+                <NpcsPage />
+                <Epilogue />
             </Page>
+            <DmScreen contentsList={null} hashReferencesSupported={null} />
             <Footer />
         </Fragment>
     );

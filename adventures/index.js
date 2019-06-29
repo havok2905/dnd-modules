@@ -6,12 +6,14 @@ import { HashRouter, Route, Link } from "react-router-dom";
 import { Page } from "dnd-module/";
 
 import { CircleBridge } from "./circle-bridge/index.jsx";
-import { TheHive } from "./the-hive/index.jsx";
+import { FortBriggs } from "./fort-briggs/index.jsx";
 import { HibersEdge } from "./hibers-edge/index.jsx";
 import { JourneyToTheTempleOfAo } from "./journey-to-the-temple-of-ao/index.jsx";
 import { LightUpTheNight } from "./light-up-the-night/index.jsx";
 import { NewYork } from "./new-york/index.jsx";
 import { SilverCreek } from "./silver-creek/index.jsx";
+import { TheHive } from "./the-hive/index.jsx";
+import { TheWhisperingSea } from "./the-whispering-sea/index.jsx";
 
 const ModulesPage = () => {
     return (
@@ -45,6 +47,12 @@ const ModulesPage = () => {
                 <li>
                     <Link to="/silver-creek">Silver Creek</Link>
                 </li>
+                <li>
+                    <Link to="/the-whispering-sea">The Whispering Sea</Link>
+                </li>
+                <li>
+                    <Link to="/fort-briggs">Fort Briggs</Link>
+                </li>
             </ul>
         </Page>
     );
@@ -64,6 +72,8 @@ render(
             <Route path="/light-up-the-night" component={LightUpTheNight} />
             <Route path="/new-york" component={NewYork} />
             <Route path="/silver-creek" component={SilverCreek} />
+            <Route path="/the-whispering-sea" component={TheWhisperingSea} />
+            <Route path="/fort-briggs" component={FortBriggs} />
         </Fragment>
     </HashRouter>,
     document.getElementById("root")

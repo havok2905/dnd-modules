@@ -3,6 +3,7 @@ import {
     CollapsableContainer,
     Columns,
     Creatures,
+    DmScreen,
     EmphasisBlock,
     Footer,
     Hero,
@@ -13,9 +14,7 @@ import {
     Page,
     PanZoom,
     RollTable,
-    ScrollToMe,
-    TableOfContents,
-    Tools
+    ScrollToMe
 } from "dnd-module";
 
 import TABLE_OF_CONTENTS from "./constants/table-of-contents";
@@ -549,6 +548,10 @@ const HibersEdge = () => {
                     </div>
                 </Columns>
             </Page>
+            <DmScreen
+                contentsList={TABLE_OF_CONTENTS}
+                hashReferencesSupported={false}
+            />
             <Footer />
         </Fragment>
     );

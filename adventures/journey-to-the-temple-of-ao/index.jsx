@@ -1,12 +1,5 @@
 import React, { Fragment } from "react";
-import {
-    Columns,
-    Footer,
-    Hero,
-    Page,
-    TableOfContents,
-    Tools
-} from "dnd-module";
+import { Columns, DmScreen, Footer, Hero, Page } from "dnd-module";
 import { Overview } from "./chapters/overview.jsx";
 import { Prologue } from "./chapters/prologue.jsx";
 import { Factions } from "./chapters/factions.jsx";
@@ -30,34 +23,24 @@ const JourneyToTheTempleOfAo = () => {
             <Hero src={HeroImage} alt="adventure cover image" />
             <Page>
                 <h1>Journey to the Temple of Ao</h1>
-                <Columns>
-                    <div>
-                        <Overview />
-                        <Prologue />
-                        <Factions />
-                        <WorldMap />
-                        <EncounteringProfaneSoulFleet />
-                        <SkyEncounters />
-                        <NewFey />
-                        <Krossa />
-                        <SamsCottage />
-                        <TempleOfAo />
-                        <CustomCreatures />
-                        <Npcs />
-                    </div>
-                    <div>
-                        <h2>Table of Contents</h2>
-                        <TableOfContents
-                            contentsList={TABLE_OF_CONTENTS}
-                            hashReferencesSupported={false}
-                        />
-                        <h2>Tools</h2>
-                        <Tools />
-                    </div>
-                </Columns>
+                <Overview />
+                <Prologue />
+                <Factions />
+                <WorldMap />
+                <EncounteringProfaneSoulFleet />
+                <SkyEncounters />
+                <NewFey />
+                <Krossa />
+                <SamsCottage />
+                <TempleOfAo />
+                <CustomCreatures />
+                <Npcs />
             </Page>
-
-            <Footer scrollButton={true} rollForm={true} />
+            <DmScreen
+                contentsList={TABLE_OF_CONTENTS}
+                hashReferencesSupported={false}
+            />
+            <Footer />
         </Fragment>
     );
 };
