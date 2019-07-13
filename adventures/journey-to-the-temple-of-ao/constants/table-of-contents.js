@@ -55,6 +55,12 @@ export default [
         children: []
     },
     {
+        title: "Tome of Maren",
+        link: "#tome-of-maren",
+        scrollActionString: "tome-of-maren",
+        children: []
+    },
+    {
         title: "New Fey",
         link: "#new-fey",
         scrollActionString: "new-fey",

@@ -6,6 +6,7 @@ import { Factions } from "./chapters/factions.jsx";
 import { WorldMap } from "./chapters/world-map.jsx";
 import { EncounteringProfaneSoulFleet } from "./chapters/encountering-profane-soul-fleet.jsx";
 import { SkyEncounters } from "./chapters/sky-encounters.jsx";
+import { TomeOfMaren } from "./chapters/tome-of-maren.jsx";
 import { NewFey } from "./chapters/new-fey.jsx";
 import { Krossa } from "./chapters/krossa.jsx";
 import { SamsCottage } from "./chapters/sams-cottage.jsx";
@@ -29,6 +30,7 @@ const JourneyToTheTempleOfAo = () => {
                 <WorldMap />
                 <EncounteringProfaneSoulFleet />
                 <SkyEncounters />
+                <TomeOfMaren />
                 <NewFey />
                 <Krossa />
                 <SamsCottage />

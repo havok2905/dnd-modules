@@ -3,47 +3,37 @@ export default {
     actions: [
         {
             title: "Multiattack",
-            description:
-                "The blood hunter can either make two attacks with its rite weapon or cast a cantrip and make one weapon attack."
+            description: "The blood hunter can either make two attacks."
         },
         {
-            title: "Dagger",
+            title: "Lightning/Necrotic Dagger",
             description:
-                "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+                "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. 1d4+8 piercing damage and 3d8 Lightning/Necrotic Damage."
         },
         {
-            title: "Rite Longbow",
+            title: "Lightning/Necrotic Longbow",
             description:
-                "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) fire damage. If the damage from this attack reduces a creature to 0 hit points, the blood hunter regains an expended spell slot."
+                "Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 7 1d8+8 piercing damage plus 3d8 Lightning/Necrotic Damage. If the damage from this attack reduces a creature to 0 hit points, the blood hunter regains an expended spell slot."
         },
         {
             title: "Diabolic Channel",
             description:
-                "The blood hunter makes one attack with its rite longbow against a creature. If the attack hits, the blood hunter can cast one spell on the target, regardless of the regular rules for range, affecting only that target. If the spell requires an attack roll, it automatically hits. If the spell requires a saving throw, the creature has disadvantage on the first saving throw made against the spell."
-        }
-    ],
-    alignment: "Neutral Good",
-    challenge: "7",
-    conditionImmunities: ["Fear"],
-    damageImmunities: [],
-    damageResistances: ["Fire", "Lightning", "Cold", "Radiant", "Necrotic"],
-    damageWeaknesses: [],
-    description: "",
-    features: [
-        {
-            title: "Hunter's Bane",
-            description:
-                "The blood hunter has advantage on Wisdom (Survival) checks to track fey, fiends, and undead, and on Intelligence checks to recall information about them."
+                "The blood hunter makes one attack with its Lightning/Necrotic Longbow against a creature. If the attack hits, the blood hunter can cast one spell on the target, regardless of the regular rules for range, affecting only that target. If the spell requires an attack roll, it automatically hits. If the spell requires a saving throw, the creature has disadvantage on the first saving throw made against the spell."
         },
         {
-            title: "Rite Weapon",
+            title: "Blood Curse of the Marked",
             description:
-                "The blood hunter's rite weapon is its longbow. Its attacks with its rite weapon are magical and deal an additional 3d8 fire, lightning, or necrotic damage (included in the attack)."
+                "As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled."
         },
         {
-            title: "Spellcasting",
+            title: "Legendary Action (2)",
             description:
-                "The blood hunter is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells, and can cast them using its rite weapon as its spellcasting focus: Cantrips (at will): blade ward, chill touch, mage hand 1st-3rd level (2 3rd-level slots): charm person, crown of madness, earthbind, fear, hold person, ray of enfeeblement"
+                "Circle of Death: A sphere of negative energy ripples out in a 60-foot- radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+            title: "Legendary Action (1)",
+            description:
+                "Bestow Curse: While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target."
         },
         {
             title: "Portal",
@@ -51,27 +41,41 @@ export default {
                 "This blood hunter can use misty step at will as if a cantrip. The effect takes the appearance of a portal."
         }
     ],
-    hp: 250,
+    alignment: "Chaotic Good",
+    challenge: "15",
+    conditionImmunities: ["Fear"],
+    damageImmunities: [],
+    damageResistances: ["Fire", "Lightning", "Cold", "Radiant", "Necrotic"],
+    damageWeaknesses: [],
+    description: "",
+    features: [
+        {
+            title: "Spellcasting",
+            description:
+                "The blood hunter is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells, and can cast them using its rite weapon as its spellcasting focus: Cantrips (at will): blade ward, chill touch, mage hand 1st-3rd level (4 3rd-level slots): charm person, crown of madness, earthbind, fear, hold person, ray of enfeeblement"
+        }
+    ],
+    hp: 288,
     inventory: [
-        "1 Dagger",
+        "4 Dagger",
         "1 Longbow",
         "1 Half Plate Armor",
         "1 Tome of Maren"
     ],
-    languages: ["Common", "Infernal"],
+    languages: ["Common", "Infernal", "Abyssal"],
     reactions: [],
     savingThrows: [],
-    senses: ["passive Perception 12"],
+    senses: ["passive Perception 15"],
     size: "Medium",
-    skills: ["Insight +5", "Intimidation +3", "Survival +5"],
+    skills: ["Insight +7", "Intimidation +5", "Survival +7"],
     speed: "30 ft.",
     stats: {
-        str: 12,
-        dex: 16,
-        con: 16,
-        int: 12,
-        wis: 15,
-        cha: 11
+        str: 14,
+        dex: 18,
+        con: 18,
+        int: 14,
+        wis: 17,
+        cha: 13
     },
     type: "Drow"
 };

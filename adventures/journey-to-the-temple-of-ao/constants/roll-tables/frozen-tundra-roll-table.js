@@ -33,5 +33,15 @@ export default [
         rollRange: [7],
         description:
             "1d6 Ember Bats are engaged in a turf war and can be seen glowing brilliantly in the distance.."
+    },
+    {
+        rollRange: [8],
+        description:
+            "A sea of ice spreads out in front of you with seemingly no end. Patches of it are very thin and will break under any weight."
+    },
+    {
+        rollRange: [9],
+        description:
+            "You develop sunburn from the long exposure to the ice and snow. Take 1d4 fire damage per hour unless healed."
     }
 ];
