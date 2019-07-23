@@ -95,7 +95,7 @@ const Overview = () => {
                 ambitious, and cruel. Those who would seek gain for themselves
                 alone can receive Shar's blessing.
             </p>
-            <h3>Selune: Goddess of Knowledge and Life</h3>
+            <h4>Selune: Goddess of Knowledge and Life</h4>
             <p>
                 Selune is the goddess of knowledge and life, representing all
                 that Ao wishes creation could become. Selune in character

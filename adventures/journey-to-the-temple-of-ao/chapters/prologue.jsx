@@ -8,44 +8,34 @@ const Prologue = () => {
             <h2>Prologue</h2>
             <EmphasisBlock>
                 <p>
-                    We see a bluejay landing on a crooked branch, fluttering
-                    it's wings as it's talons grip on the brittle bark. It takes
-                    a moment to rest it's wings, tired from a long flight
-                    through the clouds. The chill wind wraps around the tiny
-                    creature, dusting it with a thin white layer of snow. This
-                    peace does not last long.
+                    We see a bluejay land on a crooked branch, fluttering it's
+                    wings as it grips on the frail wood. It takes a moment to
+                    rest it's wings, tired from a long flight through the
+                    clouds. It stays perched there for some time, now dusted in
+                    a thin layer of white snow.
                 </p>
                 <p>
-                    Wood splinters in all directions as the mound of titanic
-                    flesh rips the tree apart. The bluejay takes flight,
-                    frantically doing all it can to avoid a sure death.
-                    Fluttering it's wings, it soars upwards, parallel with the
-                    towering figure of this pale grey titan.
+                    Wood splinters in all directions as a mound of titanic flesh
+                    rips the tree from it's roots. The bluejay takes flight,
+                    frantically darting between the creature's limbs, the shower
+                    of jagged stone, and finally upward, racing away from an
+                    intense and sudden heat.
                 </p>
                 <p>
-                    It's arms and legs swing like pendulums, arching the
-                    distances of entire villages as it walks. Feathers rain down
-                    into the snow, the bluejay just slightly grazed by the
-                    hulking figure. But, it continues to soar upward. It soars
-                    beyond the singular glowing scarlet eye, casting a demonic
-                    glow on the bluebird, painting it blood red. It soars
-                    forwards, through the frozen tundra and under the brilliant
-                    lights that dance in the arctic inky skies. It soars through
-                    the jagged peaks mountains where few others have ventured.
-                    And the bluebird lands. It lays to rest in the shadows of a
+                    The titan's arms, swinging like iron pendulums, graze the
+                    small bird, raining feathers down from above. Yet, it
+                    continues to soar upward. It soars beyond the singular
+                    glowing scarlet eye, painting the bird with blood red light.
+                    It soars, over the frozen tundra and under the brilliant
+                    lights that dance in the arctic skies. It soars through the
+                    jagged peaks mountains where few others have ventured. And
+                    the bluebird lands. It lays to rest in the shadows of a
                     modest stone temple, well above the clouds.
                 </p>
                 <p>
-                    As the bluebird rested, basked in the pleasant melody that
-                    rang through the frozen peek. It was the sound of a silence
-                    that eased the soul and carried with it a majesty unlike any
-                    other.
-                </p>
-                <p>
-                    The bird looked down on the lands below, set abalze and in
-                    chaos, torn asunder by the wrath of the gods. And if we were
-                    to follow it's gaze, we would see an unlikely group of heros
-                    making their way north.
+                    It is here where the bird lays to rest, looking down on the
+                    realms of man, elves, and dwarves, set abalze, in chaos, and
+                    torn asunder by the wrath of gods.
                 </p>
             </EmphasisBlock>
         </Fragment>

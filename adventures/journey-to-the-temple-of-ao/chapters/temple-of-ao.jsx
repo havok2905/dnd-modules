@@ -1,12 +1,17 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, ItemBlock, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, ItemBlock, PanZoom, ScrollToMe } from "dnd-module";
+
+import TEMPLE_OF_AO_L1 from "../img/TempleOfAoL1.png";
+import TEMPLE_OF_AO_L2 from "../img/TempleOfAoL2.png";
+import PORTAL_PUZZLE from "../img/portal-puzzle.png";
 
 const TempleOfAo = () => {
     return (
         <Fragment>
             <ScrollToMe scrollActionString="the-temple-of-ao" />
             <h2>The Temple of Ao</h2>
+            <h3>Outside the Temple</h3>
             <EmphasisBlock>
                 <p>
                     We see three archways, crumbled with the passage of time,
@@ -18,6 +23,10 @@ const TempleOfAo = () => {
                     silence. An aura of grandness and timelessness emanates from
                     every stone.
                 </p>
+                <p>
+                    Standing, arms crossed at the temple door is a hulking man
+                    with pale blue skin, unmoving in the cold.
+                </p>
             </EmphasisBlock>
             <p>
                 Clerics and Paladins of all worship will feel a special
@@ -25,46 +34,141 @@ const TempleOfAo = () => {
                 their god. This feeling will dwarf any feelings closeness they
                 have ever experienced before.
             </p>
-            <h3>The Winding Tunnel of the Gods</h3>
+            <p>
+                The creature standing at the entrance of the temple is an
+                <strong> Empyrean</strong>. It will reluctantly let only the
+                player characters into the temple. Before doing so, he will
+                recite the rite of passage.
+            </p>
             <EmphasisBlock>
                 <p>
-                    Snaking downwards in near blackness, you find yourselves
-                    down a narrow tunnel with seemingly no end. Lining the walls
-                    are hundreds if not thousands of statues, featureless,
-                    genderless, all with multicolored glowing eyes. Their heads
-                    turn to follow you as you venture downward.
+                    First we examine the mind, the fabric of the planes just one
+                    in kind. Second we examine the essence, from ashes to ashes,
+                    we all learn our lessons. Third we examine the soul,
+                    prostrate ourselves, and emerge again whole.
+                </p>
+            </EmphasisBlock>
+            <h3>Maps</h3>
+            <h4>Level 1</h4>
+            <PanZoom>
+                <img src={TEMPLE_OF_AO_L1} />
+            </PanZoom>
+            <h5>A: Temple Entrance</h5>
+            <p>There is a peaceful quiet in this room.</p>
+            <h5>B: The Portal Puzzle</h5>
+            <PanZoom>
+                <img src={PORTAL_PUZZLE} />
+            </PanZoom>
+            <h5>C: Lobby of the Elementals</h5>
+            <p>Engraved on a plaque on at the end of the room reads...</p>
+            <EmphasisBlock>
+                <p>
+                    In the beginning there was the creator. Alone in the fog, he
+                    begot first Selune and then Shar from her shadow. Next, as
+                    they roamed, the rock and stone took shape under their feet.
+                    Next, as they spoke, the seeds of life traveled far and wide
+                    to new homes. Next, as they fought, the sparks of their rage
+                    and passion warped the world to their will. Lastly, as they
+                    wept for the fallen, the seeds of life sprouted, giving
+                    birth to new children.
                 </p>
             </EmphasisBlock>
             <p>
-                A player with a strong faith will find them seleves drown to one
+                Each room beyond the door contains a master elemental that is
+                almost impossible to kill. Hitting on will force an elemental to
+                drop an elemental gem. When placed in the final door in order
+                (Light, Shadow, Earth, Wind, Fire, Water), the final door will
+                open. Each of the gems can be used to summon an elemental.
+            </p>
+            <p>
+                If all gems are placed into the door, the elementals will shut
+                down.
+            </p>
+            <h5>D: Vault of Wands</h5>
+            <p>
+                One item in this chest may be removed, but only after first
+                praying to an appropriate god or goddess related to the item,
+                stating your use. If this condition is not met, the armor, which
+                contains an <strong>Empyrean</strong> will attempt to take back
+                the item.
+            </p>
+            <ul>
+                <li>Wand of Polymorph</li>
+                <li>Wand of Wonder</li>
+                <li>Wand of Wand of Fear</li>
+            </ul>
+            <h5>E: Vault of Treasures</h5>
+            <p>
+                One item in this chest may be removed, but only after first
+                praying to an appropriate god or goddess related to the item,
+                stating your use. If this condition is not met, the armor, which
+                contains an <strong>Empyrean</strong> will attempt to take back
+                the item.
+            </p>
+            <ul>
+                <li>Gem of Seeing</li>
+                <li>Ring of Invisibility</li>
+            </ul>
+            <h5>F: Chamber of Water</h5>
+            <p>
+                Upon entering the room, a Master Elemental of Water will begin
+                to attack. If hit, it will drop an Elemental Gem of Water.
+            </p>
+            <h5>G: Chamber of Earth</h5>
+            <p>
+                Upon entering the room, a Master Elemental of Earth will begin
+                to attack. If hit, it will drop an Elemental Gem of Earth.
+            </p>
+            <h5>H: Chamber of Darkness</h5>
+            <p>
+                Upon entering the room, a Master Elemental of Darkness will
+                begin to attack. If hit, it will drop an Elemental Gem of
+                Darkness.
+            </p>
+            <h5>I: Chamber of Fire</h5>
+            <p>
+                Upon entering the room, a Master Elemental of Fire will begin to
+                attack. If hit, it will drop an Elemental Gem of Fire.
+            </p>
+            <h5>J: Chamber of Air</h5>
+            <p>
+                Upon entering the room, a Master Elemental of Air will begin to
+                attack. If hit, it will drop an Elemental Gem of Air.
+            </p>
+            <h5>K: Chamber of Light</h5>
+            <p>
+                Upon entering the room, a Master Elemental of Light will begin
+                to attack. If hit, it will drop an Elemental Gem of Light.
+            </p>
+            <h5>L: Winding River of the Gods</h5>
+            <EmphasisBlock>
+                <p>
+                    Floating at the dock ahead of you are three reed made rafts,
+                    each one with a sign spelling out your name.
+                </p>
+                <p>
+                    Snaking downwards in near blackness, you find yourselves
+                    floating down a narrow tunnel with seemingly no end. Lining
+                    the walls are hundreds if not thousands of statues,
+                    featureless, genderless, all with multicolored glowing eyes.
+                    Their heads turn to follow you as you venture downward.
+                </p>
+            </EmphasisBlock>
+            <p>
+                A player with a strong faith will find themselves drawn to one
                 statue in particular. Each statue is an embodiment of one of the
                 gods. They will be drawn to the one of their faith, but be
                 unable to communicate with it.
             </p>
-            <h4>The Trial of the Self</h4>
-            <EmphasisBlock>
-                The stairwell levels out to a circular arena. Standing in the
-                center, motionless, are shadowy figures of pure black. They are
-                equal in number to your party.
-            </EmphasisBlock>
             <p>
-                This trial is a trial to face yoursleves. The shaodws will do
-                anything to prevent the players from progressing. However, they
-                will only use as much force as they need to use. Though they
-                cannot speak, they do understand all languages. It is up to the
-                DM to decide if they can be talked out of moving aside.
+                After a time, the rafts will split in different directions,
+                causing each player's individual trial to commence.
             </p>
-            <p>
-                The shadows are exact duplicates of the members of the party,
-                down to inventory, stats, weaponry, ect. All items fade to
-                nothingness. If the shadows are banished, they instantly appear
-                back in the center of the room.
-            </p>
-            <p>
-                This trial can be completed by either defeating the shadows or
-                talking them aside.
-            </p>
-            <h3>The Main Hall</h3>
+            <h4>Level 2</h4>
+            <PanZoom>
+                <img src={TEMPLE_OF_AO_L2} />
+            </PanZoom>
+            <h5>A: Main Hall</h5>
             <EmphasisBlock>
                 <p>
                     Coming down the steps, you find yourselves in an empty white
@@ -72,27 +176,7 @@ const TempleOfAo = () => {
                     the hall.
                 </p>
             </EmphasisBlock>
-            <h3>The Chamber of Shar</h3>
-            <EmphasisBlock>
-                <p>
-                    The same white that filled the halls behind you fades to
-                    black as you continue down the hallway. Imprinted on the
-                    tile floor are three concentric circles of varying widths. A
-                    voice made of thousands of voices, rings out, filling the
-                    chamber with a cold, dark, sneer.
-                </p>
-                <blockquote>Welcome. We are Shar. Do you choose us?</blockquote>
-            </EmphasisBlock>
-            <h4>The Trial of Darkness</h4>
-            <p>
-                Those choosing the trial of darkness must begin by recounting
-                the entirety of their journey so far, from birth. Based on the
-                response, the DM will choose a moment from their past to play
-                out. They player will need to make it out of the chosen scenario
-                with little care to those around them. They must maximize their
-                own well being. What is important are the motivations.
-            </p>
-            <h3>The Chamber of Selune</h3>
+            <h5>B: Selune's Chamber</h5>
             <EmphasisBlock>
                 <p>
                     The same white that filled the halls behind you continues
@@ -105,72 +189,14 @@ const TempleOfAo = () => {
                     Welcome friends. We are Selune. Do you choose us?
                 </blockquote>
             </EmphasisBlock>
-            <h4>The Trial of Light</h4>
             <p>
-                Those choosing the trial of darkness must begin by recounting
-                the entirety of their journey so far, from birth. Based on the
+                Those choosing the trial of light must begin by recounting the
+                entirety of their journey so far, from birth. Based on the
                 response, the DM will choose a moment from their past to play
                 out. They player will need to make it out of the chosen scenario
                 by trying to help as many around them as possible. The goal is
                 to do what is right by all costs. What is important are the
-                motivations.
-            </p>
-            <h3>The Chamber of Ao</h3>
-            <EmphasisBlock>
-                <p>
-                    Two candelabras flank a gargantuan fountain, water pouring
-                    from the wall at the end of the hall. In the center of the
-                    floor is a circle of intertwining vines, etched into the
-                    tile. The air weighs down on you, not in oppression, but as
-                    a mark of the majesty of this chamber. The fountain begins
-                    to glow.
-                </p>
-                <p>
-                    Voices call out in every direction, every inflection, every
-                    emotion and state of being. Their words differ, but the
-                    meaning rings true; Welcome, my children.
-                </p>
-            </EmphasisBlock>
-            <h4>The Trial of Creation</h4>
-            <p>
-                Those wishing to undergo the trial of creation will be told that
-                Ao already knows of their past. All players must undergo the
-                trial of Ao together and pass together. This trial is to test
-                the original forming of the group and to pit them against an
-                impossible struggle.
-            </p>
-            <p>
-                Each player is reduced to a level 1 character. Prepare their
-                sheets for them in advance.
-            </p>
-            <EmphasisBlock>
-                <p>
-                    You all find yourselves in a dark void, standing on white
-                    tile. Behind you is a deep red door, exit scrawled across it
-                    in common. In front of you is a Tarrasque, a mountain like
-                    creature with spines the size of houses. A chorus of voices
-                    boom inwards at you from every direction.
-                </p>
-                <blockquote>Choose...</blockquote>
-                <p>
-                    Before you appear a rack of simple weapons, daggers, swords,
-                    bows, etc.
-                </p>
-            </EmphasisBlock>
-            <p>
-                If a player dies, they are teleported back to the chamber of Ao.
-                Do not reveal this until the trial is complete. This is not a
-                winnable fight, but if any player flees our of self interest,
-                the who party loses. A player sacrificing themselves to allow
-                the others to escape is acceptable.
-            </p>
-            <p>Only one player may use the exit per round.</p>
-            <h3>Trial Prizes</h3>
-            <h4>Selune</h4>
-            <p>
-                Shar will grant the player a "Star's Emblem" as reward as well
-                as a scroll that will boost the player's level to 15 for one
-                hour.
+                motivations. A worthy character will receive Star's Emblem.
             </p>
             <ItemBlock
                 name="Star's Emblem"
@@ -186,11 +212,25 @@ const TempleOfAo = () => {
                     instantly die.
                 </p>
             </ItemBlock>
-            <h4>Shar</h4>
+            <h5>C: Shar's Chamber</h5>
+            <EmphasisBlock>
+                <p>
+                    The same white that filled the halls behind you fades to
+                    black as you continue down the hallway. Imprinted on the
+                    tile floor are three concentric circles of varying widths. A
+                    voice made of thousands of voices, rings out, filling the
+                    chamber with a cold, dark, sneer.
+                </p>
+                <blockquote>Welcome. We are Shar. Do you choose us?</blockquote>
+            </EmphasisBlock>
             <p>
-                Shar will grant the player a "Moon's Emblem" as reward as well
-                as a scroll that will boost the player's level to 15 for one
-                hour.
+                Those choosing the trial of darkness must begin by recounting
+                the entirety of their journey so far, from birth. Based on the
+                response, the DM will choose a moment from their past to play
+                out. They player will need to make it out of the chosen scenario
+                with little care to those around them. They must maximize their
+                own well being. What is important are the motivations. A worthy
+                character will receive Moon's Emblem.
             </p>
             <ItemBlock
                 name="Moon's Emblem"
@@ -206,15 +246,26 @@ const TempleOfAo = () => {
                     instantly die.
                 </p>
             </ItemBlock>
-            <h4>Ao</h4>
+            <h5>D: Ao's Chamber</h5>
+            <EmphasisBlock>
+                <p>
+                    Two candelabras flank a gargantuan fountain, water pouring
+                    from the wall at the end of the hall. In the center of the
+                    floor is a circle of intertwining vines, etched into the
+                    tile. The air weighs down on you, not in oppression, but as
+                    a mark of the majesty of this chamber. The fountain begins
+                    to glow.
+                </p>
+                <p>
+                    Voices call out in every direction, every inflection, every
+                    emotion and state of being. Their words differ, but the
+                    meaning rings true; Welcome, my children.
+                </p>
+            </EmphasisBlock>
             <p>
                 Ao will grant each player a scroll which will boost their level
-                to 20 for hour. Along with that, each player will receive a
-                specialized weapon tailored specifically to their past. It will
-                shatter after four charges. This item will have the innate
-                ability to cause twice the damage to lesser gods and instantly
-                destroy any other foe. If not a weapon, the item in question
-                should boost one stat to broken levels.
+                to 20 for six rounds of combat. After being expended, the
+                players return their previous state.
             </p>
         </Fragment>
     );

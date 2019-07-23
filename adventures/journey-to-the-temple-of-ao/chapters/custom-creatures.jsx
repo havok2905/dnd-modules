@@ -7,6 +7,7 @@ import {
     ScrollToMe
 } from "dnd-module";
 
+import MASTER_ELEMENTAL from "../constants/creatures/master-elemental";
 import PROFANE_SOUL_FLAG_SHIP from "../constants/creatures/profane-soul-flag-ship";
 
 const CustomCreatures = () => {
@@ -19,6 +20,9 @@ const CustomCreatures = () => {
             </CollapsableContainer>
             <CollapsableContainer title="Krossa Nomad">
                 <MonsterBlock {...Creatures.ARCTIC_NOMAD} />
+            </CollapsableContainer>
+            <CollapsableContainer title="Master Elemental">
+                <MonsterBlock {...MASTER_ELEMENTAL} />
             </CollapsableContainer>
             <CollapsableContainer title="New Fey Guard">
                 <MonsterBlock {...Creatures.ARCTIC_ELF_GUARD} />
