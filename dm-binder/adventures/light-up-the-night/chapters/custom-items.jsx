@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { ItemBlock, Items } from "dnd-module";
+import { ItemBlock, Items } from "../../../core/index.js";
 
 const CustomItems = () => {
     console.log(Items);

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock } from "dnd-module";
+import { EmphasisBlock } from "../../../core/index.js";
 
 const TheTempleOfEnkiem = () => {
     return (

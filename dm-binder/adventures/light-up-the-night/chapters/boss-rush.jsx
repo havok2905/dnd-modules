@@ -1,6 +1,10 @@
 import React, { Fragment } from "react";
 
-import { CollapsableContainer, EmphasisBlock, MonsterBlock } from "dnd-module";
+import {
+    CollapsableContainer,
+    EmphasisBlock,
+    MonsterBlock
+} from "../../../core/index.js";
 
 import BuffOwlbear from "../constants/npcs/buff-owlbear";
 import Maeter from "../constants/npcs/maeter";

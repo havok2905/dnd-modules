@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, RollTable, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, RollTable, ScrollToMe } from "../../../core/index.js";
 
 import FROZEN_TUNDRA_ROLL_TABLE from "../constants/roll-tables/frozen-tundra-roll-table";
 import SNOWCRASH_MOUNTAINS_ROLL_TABLE from "../constants/roll-tables/snowcrash-mountains-roll-table";

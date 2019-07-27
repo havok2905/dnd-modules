@@ -1,6 +1,10 @@
 import React, { Fragment } from "react";
 
-import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
+import {
+    CollapsableContainer,
+    MonsterBlock,
+    ScrollToMe
+} from "../../../core/index.js";
 
 import CECELIA_MARILUZE from "../constants/npcs/cecelia-mariluze";
 import DANIEL_RUDOLF from "../constants/npcs/daniel-rudolf";

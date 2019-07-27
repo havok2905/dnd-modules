@@ -1,0 +1,27 @@
+.columns {
+    display: flex;
+
+    > * {
+        width: 50%;
+        box-sizing: border-box;
+        margin-right: 80px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        width: 100%;
+        flex-direction: column-reverse;
+
+        > * {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        &--hidden {
+            display: none;
+        }
+    }
+}

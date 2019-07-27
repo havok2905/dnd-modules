@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { DmScreen, Footer, Page } from "dnd-module";
+import { DmScreen, Footer, Page } from "../../core/index.js";
 import { TheTempleOfMaren } from "./chapters/the-temple-of-maren.jsx";
 import { TheTempleOfEnkiem } from "./chapters/the-temple-of-enkiem.jsx";
 import { ThePalace } from "./chapters/the-palace.jsx";

@@ -5,7 +5,7 @@ import {
     Creatures,
     MonsterBlock,
     ScrollToMe
-} from "dnd-module";
+} from "../../../core/index.js";
 
 import MASTER_ELEMENTAL from "../constants/creatures/master-elemental";
 import PROFANE_SOUL_FLAG_SHIP from "../constants/creatures/profane-soul-flag-ship";

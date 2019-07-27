@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, ItemBlock, PanZoom, ScrollToMe } from "dnd-module";
+import {
+    EmphasisBlock,
+    ItemBlock,
+    PanZoom,
+    ScrollToMe
+} from "../../../core/index.js";
 
 import TEMPLE_OF_AO_L1 from "../img/TempleOfAoL1.png";
 import TEMPLE_OF_AO_L2 from "../img/TempleOfAoL2.png";

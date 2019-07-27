@@ -1,0 +1,36 @@
+.spell-card {
+    &__subtext-block {
+        margin-bottom: 40px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &__attributes {
+        list-style-type: none;
+        margin-left: -40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        li {
+            margin: 10px 0;
+        }
+
+        i {
+            margin-right: 10px;
+            font-size: 24px;
+            font-style: normal;
+            vertical-align: middle;
+
+            /* stylelint-disable */
+            font-family: "Material Icons";
+            /* stylelint-enable */
+        }
+    }
+
+    &__material-components {
+        list-style-type: none;
+        margin-left: -40px;
+    }
+}

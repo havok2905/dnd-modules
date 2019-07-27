@@ -6,7 +6,7 @@ import {
     MonsterBlock,
     Npcs,
     ScrollToMe
-} from "dnd-module";
+} from "../../../core/index.js";
 
 const CreaturesChapter = () => {
     return (

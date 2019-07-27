@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, PanZoom } from "dnd-module";
+import { EmphasisBlock, PanZoom } from "../../../core/index.js";
 
 import DUNGEON_MAP from "../img/dungeon.png";
 import LEVEL_ONE_MAP from "../img/level-one.png";

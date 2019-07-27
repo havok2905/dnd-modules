@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, ScrollToMe } from "dnd-module";
+import { PanZoom, ScrollToMe } from "../../../core/index.js";
 
 import RazorbackRidgeImage from "../img/razorback-ridge.png";
 

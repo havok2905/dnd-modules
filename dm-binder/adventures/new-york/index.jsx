@@ -8,7 +8,7 @@ import {
     MonsterBlock,
     Page,
     RollTable
-} from "dnd-module";
+} from "../../core/index.js";
 
 import CityRandomEncounters from "./constants/roll-tables/city-random-encounters";
 import Gozer from "./constants/creatures/gozer";

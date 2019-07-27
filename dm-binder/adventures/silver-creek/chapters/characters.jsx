@@ -1,5 +1,9 @@
 import React, { Fragment } from "react";
-import { CollapsableContainer, MonsterBlock, ScrollToMe } from "dnd-module";
+import {
+    CollapsableContainer,
+    MonsterBlock,
+    ScrollToMe
+} from "../../../core/index.js";
 
 import FortuneTellerBaba from "../constants/npcs/fortune-teller-baba";
 import GendryMasters from "../constants/npcs/gendry-masters";

@@ -1,5 +1,9 @@
 import React, { Fragment } from "react";
-import { CollapsableContainer, MonsterBlock, Npcs } from "dnd-module";
+import {
+    CollapsableContainer,
+    MonsterBlock,
+    Npcs
+} from "../../../core/index.js";
 
 const NpcsPage = () => {
     return (

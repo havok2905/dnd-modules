@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, ScrollToMe } from "dnd-module";
+import { PanZoom, ScrollToMe } from "../../../core/index.js";
 
 import RuinsOfAsmodeousBasement from "../img/ruins-of-asmodeous-basement.png";
 import RuinsOfAsmodeousGroundFloor from "../img/ruins-of-asmodeous-ground-floor.png";

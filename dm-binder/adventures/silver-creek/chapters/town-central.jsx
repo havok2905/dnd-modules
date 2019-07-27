@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom, RollTable, ScrollToMe } from "dnd-module";
+import {
+    EmphasisBlock,
+    PanZoom,
+    RollTable,
+    ScrollToMe
+} from "../../../core/index.js";
 
 import TownCentralRandomEncounters from "../constants/roll-tables/town-central-random-encounters";
 

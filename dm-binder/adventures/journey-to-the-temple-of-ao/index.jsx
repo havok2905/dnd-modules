@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Columns, DmScreen, Footer, Page } from "dnd-module";
+import { Columns, DmScreen, Footer, Page } from "../../core/index.js";
 import { Overview } from "./chapters/overview.jsx";
 import { Prologue } from "./chapters/prologue.jsx";
 import { Factions } from "./chapters/factions.jsx";

@@ -13,7 +13,7 @@ import {
     PanZoom,
     RollTable,
     ScrollToMe
-} from "dnd-module";
+} from "../../core/index.js";
 
 import TABLE_OF_CONTENTS from "./constants/table-of-contents";
 

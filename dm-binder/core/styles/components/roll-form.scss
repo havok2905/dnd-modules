@@ -1,0 +1,17 @@
+.roll-form {
+    font-size: $body-font-size;
+
+    input {
+        font-size: $body-font-size;
+        padding: 0 0 0 10px;
+        height: 40px;
+        border: none;
+        outline: none;
+        box-shadow: inset 0px 0px 5px $black;
+        border-radius: 5px;
+    }
+
+    span {
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,23 @@
+.monster-block {
+    ul,
+    ol {
+        margin-left: -40px;
+        list-style-type: none;
+    }
+
+    dt {
+        display: inline;
+        margin-right: 10px;
+        font-weight: 900;
+    }
+
+    dd {
+        display: inline;
+        margin: 0;
+    }
+
+    hr {
+        border-top: 1px solid $grey-light;
+        border-bottom: none;
+    }
+}

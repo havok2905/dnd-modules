@@ -1,0 +1,8 @@
+.roll-table {
+    &__row {
+        &--highlighted {
+            background-color: $primary-medium;
+            color: $white;
+        }
+    }
+}

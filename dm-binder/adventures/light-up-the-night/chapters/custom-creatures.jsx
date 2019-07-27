@@ -1,5 +1,9 @@
 import React, { Fragment } from "react";
-import { CollapsableContainer, Creatures, MonsterBlock } from "dnd-module";
+import {
+    CollapsableContainer,
+    Creatures,
+    MonsterBlock
+} from "../../../core/index.js";
 
 const CustomCreatures = () => {
     return (

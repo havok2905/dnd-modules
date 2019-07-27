@@ -1,7 +1,11 @@
 import React, { Fragment } from "react";
-import { RollTable } from "dnd-module";
 import HABARASHI_RANDOM_ENCOUNTERS from "../constants/roll-tables/habarashi-random-encounters";
-import { EmphasisBlock, ItemBlock, Items } from "dnd-module";
+import {
+    EmphasisBlock,
+    ItemBlock,
+    Items,
+    RollTable
+} from "../../../core/index.js";
 
 const Habarashi = () => {
     return (

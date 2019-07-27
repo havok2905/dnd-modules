@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { ScrollToMe } from "dnd-module";
+import { ScrollToMe } from "../../../core/index.js";
 
 const Factions = () => {
     return (

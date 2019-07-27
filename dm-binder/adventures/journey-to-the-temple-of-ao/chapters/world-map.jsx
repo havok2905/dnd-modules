@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { PanZoom, ScrollToMe } from "dnd-module";
+import { PanZoom, ScrollToMe } from "../../../core/index.js";
 
 import WorldMapImage from "../img/world-map.jpg";
 

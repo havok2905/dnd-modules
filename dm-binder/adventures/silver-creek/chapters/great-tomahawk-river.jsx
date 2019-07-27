@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, PanZoom, ScrollToMe } from "../../../core/index.js";
 
 import GreatTomahawkRiverImage from "../img/great-tomahawk-river.png";
 

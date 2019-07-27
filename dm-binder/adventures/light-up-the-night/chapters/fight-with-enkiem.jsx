@@ -1,5 +1,9 @@
 import React, { Fragment } from "react";
-import { CollapsableContainer, EmphasisBlock, MonsterBlock } from "dnd-module";
+import {
+    CollapsableContainer,
+    EmphasisBlock,
+    MonsterBlock
+} from "../../../core/index.js";
 import EnkiemStage1 from "../constants/enkiem/enkiem-stage-1";
 import EnkiemStage2 from "../constants/enkiem/enkiem-stage-2";
 import EnkiemStage3 from "../constants/enkiem/enkiem-stage-3";

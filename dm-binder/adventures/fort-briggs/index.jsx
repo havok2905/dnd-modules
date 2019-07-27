@@ -10,7 +10,7 @@ import {
     PanZoom,
     RollTable,
     ScrollToMe
-} from "dnd-module";
+} from "../../core/index.js";
 
 import TowerImage from "./img/tower.png";
 import Level1Image from "./img/level-1.png";

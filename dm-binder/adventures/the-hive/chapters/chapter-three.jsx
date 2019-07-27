@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, PanZoom, RollTable, ScrollToMe } from "dnd-module";
+import {
+    EmphasisBlock,
+    PanZoom,
+    RollTable,
+    ScrollToMe
+} from "../../../core/index.js";
 
 import UnderdarkLebel1Image from "../img/underdark-level-1.png";
 import UnderdarkBasement1Image from "../img/underdark-basement-1.png";

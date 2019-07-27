@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    z-index: 200;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $primary-dark;
+    box-shadow: 0px 0px 10px 0px $black;
+    border-top: solid 1px $primary-medium;
+    color: $white;
+    margin: 0;
+    padding: 15px;
+
+    .to-top-button {
+        margin-right: 10px;
+    }
+
+    .roll-form,
+    .to-top-button {
+        display: inline-block;
+        vertical-align: -webkit-baseline-middle;
+    }
+}

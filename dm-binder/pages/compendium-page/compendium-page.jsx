@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Compendium, Page } from "dnd-module";
+import { Compendium, Page } from "../../core/index.js";
 
 const CompendiumPage = () => {
     return (

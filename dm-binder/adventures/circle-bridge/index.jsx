@@ -10,7 +10,7 @@ import {
     MonsterBlock,
     Page,
     PanZoom
-} from "dnd-module";
+} from "../../core/index.js";
 
 import CircleBridgeMap from "./img/circle-bridge.png";
 

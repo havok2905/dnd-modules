@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, RollTable, ScrollToMe } from "dnd-module";
+import { PanZoom, RollTable, ScrollToMe } from "../../../core/index.js";
 
 import CountryRandomEncounters from "../constants/roll-tables/country-random-encounters";
 

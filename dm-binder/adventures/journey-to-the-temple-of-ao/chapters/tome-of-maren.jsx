@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, ScrollToMe } from "dnd-module";
+import { EmphasisBlock, ScrollToMe } from "../../../core/index.js";
 
 const TomeOfMaren = () => {
     return (

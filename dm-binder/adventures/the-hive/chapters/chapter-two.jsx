@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, PanZoom, RollTable, ScrollToMe } from "dnd-module";
+import {
+    EmphasisBlock,
+    PanZoom,
+    RollTable,
+    ScrollToMe
+} from "../../../core/index.js";
 
 import MARSH_ROLL_TABLE from "../constants/roll-tables/marsh-roll-table";
 

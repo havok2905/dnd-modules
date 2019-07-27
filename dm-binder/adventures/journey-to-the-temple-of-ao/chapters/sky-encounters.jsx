@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { RollTable, ScrollToMe } from "dnd-module";
+import { RollTable, ScrollToMe } from "../../../core/index.js";
 
 import SKY_ROLL_TABLE from "../constants/roll-tables/sky-roll-table";
 
