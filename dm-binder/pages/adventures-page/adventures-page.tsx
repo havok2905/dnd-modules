@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-import { Page } from "dnd-module/";
+import { Page } from "../../core/index.js";
 
 const AdventuresPage = () => {
     return (

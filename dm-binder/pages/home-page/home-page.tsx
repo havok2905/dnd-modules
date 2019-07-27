@@ -1,37 +1,33 @@
-import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 
+import { HomePageTile } from "./home-page-tile";
+import { IHomePageState } from "./interfaces/i-home-page-state";
+import { IHomePageProps } from "./interfaces/i-home-page-props";
+
 import "./tile-collection.scss";
 
-const tiles = [
-    {
-        backgroundClassName: "tile-collection__tile--maps",
-        redirectRoute: "maps",
-        text: "Maps"
-    },
-    {
-        backgroundClassName: "tile-collection__tile--adventures",
-        redirectRoute: "adventures",
-        text: "Adventures"
-    },
-    {
-        backgroundClassName: "tile-collection__tile--compendium",
-        redirectRoute: "compendium",
-        text: "Compendium"
-    }
-];
+class HomePage extends Component<IHomePageProps, IHomePageState> {
+    private tiles: HomePageTile[] = [
+        new HomePageTile("tile-collection__tile--maps", "maps", "Maps"),
+        new HomePageTile(
+            "tile-collection__tile--adventures",
+            "adventures",
+            "Adventures"
+        ),
+        new HomePageTile(
+            "tile-collection__tile--compendium",
+            "compendium",
+            "Compendium"
+        )
+    ];
 
-class HomePageTileCollection extends Component {
-    constructor() {
-        super();
-        this.state = {
-            redirect: false,
-            redirectRoute: ""
-        };
-    }
+    public state = {
+        redirect: false,
+        redirectRoute: ""
+    };
 
-    redirectTo(redirectRoute) {
+    redirectTo(redirectRoute: string) {
         this.setState({
             redirect: true,
             redirectRoute
@@ -46,7 +42,7 @@ class HomePageTileCollection extends Component {
         return (
             <div className="tile-collection">
                 <ul>
-                    {tiles.map((tile, index) => {
+                    {this.tiles.map((tile: any, index: number) => {
                         return (
                             <li
                                 className={`tile-collection__tile ${
@@ -67,11 +63,4 @@ class HomePageTileCollection extends Component {
     }
 }
 
-HomePageTileCollection.propTypes = {
-    tiles: PropTypes.shape({
-        backgroundClassName: PropTypes.string,
-        text: PropTypes.string
-    })
-};
-
-export { HomePageTileCollection };
+export { HomePage };

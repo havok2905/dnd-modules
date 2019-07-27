@@ -5,7 +5,7 @@ module.exports = {
     resolve: {
         extensions: [".*", ".js", ".jsx", ".ts", ".tsx"]
     },
-    entry: path.resolve(__dirname, "dm-binder/index.jsx"),
+    entry: path.resolve(__dirname, "dm-binder/index.tsx"),
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js"

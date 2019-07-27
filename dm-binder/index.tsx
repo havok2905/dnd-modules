@@ -3,8 +3,8 @@ import React, { Fragment } from "react";
 import { render } from "react-dom";
 
 // COMPONENTS
-import { DmBinderFooter } from "./components/db-binder-footer/dm-binder-footer.jsx";
-import { DmBinderHeader } from "./components/dm-binder-header/dm-binder-header.jsx";
+import { DmBinderFooter } from "./components/db-binder-footer/dm-binder-footer";
+import { DmBinderHeader } from "./components/dm-binder-header/dm-binder-header";
 
 // ADVENTURES
 import { CircleBridge } from "./adventures/circle-bridge/index.jsx";
@@ -18,9 +18,9 @@ import { TheHive } from "./adventures/the-hive/index.jsx";
 import { TheWhisperingSea } from "./adventures/the-whispering-sea/index.jsx";
 
 // PAGES
-import { AdventuresPage } from "./pages/adventures-page/adventures-page.jsx";
-import { CompendiumPage } from "./pages/compendium-page/compendium-page.jsx";
-import { HomePage } from "./pages/home-page/home-page.jsx";
+import { AdventuresPage } from "./pages/adventures-page/adventures-page";
+import { CompendiumPage } from "./pages/compendium-page/compendium-page";
+import { HomePage } from "./pages/home-page/home-page";
 
 render(
     <HashRouter basename="/dm-binder">
@@ -29,7 +29,6 @@ render(
             <Route path="/" exact component={HomePage} />
             <Route path="/adventures" exact component={AdventuresPage} />
             <Route path="/compendium" exact component={CompendiumPage} />
-
             <Route
                 path="/adventures/circle-bridge"
                 exact
@@ -67,7 +66,6 @@ render(
                 exact
                 component={FortBriggs}
             />
-
             <DmBinderFooter />
         </Fragment>
     </HashRouter>,
