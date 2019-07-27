@@ -1,0 +1,37 @@
+.dm-binder-header {
+    text-align: center;
+
+    h1 {
+        font-family: industry-inc-base, sans-serif;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        margin: 100px 0 0 0;
+        padding: 0;
+    }
+
+    h2 {
+        font-family: Open Sans, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__home-link {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .dm-binder-header {
+        h1 {
+            margin: 75px 0 0 0;
+        }
+    }
+}
