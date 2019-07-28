@@ -4,9 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "tslint": "tslint \"dm-binder/**/*.ts\"",
+        "test": "jest -c jest.config.js --coverage",
+        "unit-test-coverage": "jest -c jest-unit.config.js --coverage",
+        "enzyme-test-coverage": "jest -c jest-enzyme.config.js --coverage",
         "build": "webpack --config=webpack.config.js --mode=production",
         "start": "webpack-dev-server --config=webpack.config.js",
+        "stylelint": "stylelint \"./dm-binder/**/*.scss\" --syntax scss",
         "deploy": "gh-pages -d dist"
     },
     "author": "",
@@ -26,8 +30,6 @@
         "@babel/preset-react": "^7.0.0",
         "@storybook/react": "^5.0.6",
         "@babel/preset-typescript": "^7.3.3",
-        "@storybook/addon-info": "^5.0.5",
-        "@storybook/storybook-deployer": "^2.8.1",
         "@types/enzyme-adapter-react-16": "^1.0.5",
         "@types/jest": "^24.0.11",
         "@types/react": "^16.8.13",

@@ -1,6 +1,6 @@
 import * as Factory from "factory.ts";
 
-import { ISpell } from "../core/interfaces/i-spell";
+import { ISpell } from "../dm-binder/core/interfaces/i-spell";
 
 export const SpellFactory = Factory.Sync.makeFactory<ISpell>({
     name: "Test Spell",

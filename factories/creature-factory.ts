@@ -1,6 +1,6 @@
 import * as Factory from "factory.ts";
 
-import { ICreature } from "../core/interfaces/i-creature";
+import { ICreature } from "../dm-binder/core/interfaces/i-creature";
 
 export const CreatureFactory = Factory.Sync.makeFactory<ICreature>({
     ac: 10,

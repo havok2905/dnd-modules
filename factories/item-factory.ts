@@ -1,6 +1,6 @@
 import * as Factory from "factory.ts";
 
-import { IItem } from "../core/interfaces/i-item";
+import { IItem } from "../dm-binder/core/interfaces/i-item";
 
 export const ItemFactory = Factory.Sync.makeFactory<IItem>({
     name: "Item",

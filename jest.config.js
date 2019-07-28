@@ -2,12 +2,12 @@ module.exports = {
     verbose: true,
     testMatch: ["**/tests/**/*.test.ts", "**/tests/**/*.test.tsx"],
     collectCoverageFrom: [
-        "./src/services/**/*.js",
-        "./src/services/**/*.ts",
-        "./src/components/**/*.js",
-        "./src/components/**/*.jsx",
-        "./src/components/**/*.ts",
-        "./src/components/**/*.tsx"
+        "./dm-binder/core/services/**/*.js",
+        "./dm-binder/core/services/**/*.ts",
+        "./dm-binder/core/components/**/*.js",
+        "./dm-binder/core/components/**/*.jsx",
+        "./dm-binder/core/components/**/*.ts",
+        "./dm-binder/core/components/**/*.tsx"
     ],
     moduleNameMapper: {
         "^.+\\.(css|less|scss)$": "babel-jest"
