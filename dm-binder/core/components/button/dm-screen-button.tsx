@@ -7,7 +7,12 @@ const DmScreenButton = () => {
     };
 
     return (
-        <button onClick={handleClick} type="button" title="Dm Screen">
+        <button
+            className="to-top-button"
+            onClick={handleClick}
+            type="button"
+            title="Dm Screen"
+        >
             book
         </button>
     );
