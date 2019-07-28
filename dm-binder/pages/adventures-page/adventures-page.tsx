@@ -9,24 +9,29 @@ const AdventuresPage = () => {
             <h2>Stand Alone Adventures</h2>
             <ul>
                 <li>
+                    <Link to="/adventures/silver-creek">Silver Creek</Link>
+                </li>
+
+                <li>
+                    <Link to="/adventures/fort-briggs">Fort Briggs</Link>
+                </li>
+            </ul>
+            <h2>Unfinished Ideas</h2>
+            <ul>
+                <li>
                     <Link to="/adventures/circle-bridge">Circle Bridge</Link>
                 </li>
                 <li>
                     <Link to="/adventures/new-york">New York</Link>
                 </li>
-                <li>
-                    <Link to="/adventures/silver-creek">Silver Creek</Link>
-                </li>
+
                 <li>
                     <Link to="/adventures/the-whispering-sea">
                         The Whispering Sea
                     </Link>
                 </li>
-                <li>
-                    <Link to="/adventures/fort-briggs">Fort Briggs</Link>
-                </li>
             </ul>
-            <h2>Habarashi Adventures</h2>
+            <h2>Habarashi Campaign Adventures</h2>
             <ul>
                 <li>
                     <Link to="/adventures/the-hive">The Hive</Link>
