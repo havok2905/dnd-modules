@@ -18,6 +18,7 @@ import { ICE_ELEMENTAL } from "./constants/ice-elemental";
 import { KIPINE } from "./constants/kipine";
 import { KRAKEN_TENTACLE } from "./constants/kraken-tentacle";
 import { MAGE_OF_THE_DRAGONS_FLAME } from "./constants/mage-of-the-dragons-flame";
+import { MASTER_ELEMENTAL } from "./constants/master-elemental";
 import { MERFOLK_PALADIN } from "./constants/merfolk-paladin";
 import { METAL_EAGLE } from "./constants/metal-eagle";
 import { METAL_GORILLA } from "./constants/metal-gorilla";
@@ -28,6 +29,7 @@ import { OWLBEAR_CUB } from "./constants/owlbear-cub";
 import { PIRATE_OF_THE_DRAGONS_FLAME } from "./constants/pirate-of-the-dragons-flame";
 import { POLICE_OFFICER } from "./constants/police-officer";
 import { PRIEST_OF_THOR } from "./constants/priest-of-thor";
+import { PROFANE_SOUL_FLAG_SHIP } from "./constants/profane-soul-flag-ship";
 import { PROFANE_SOUL_MONSTROSITY } from "./constants/profane-soul-monstrosity";
 import { PROFANE_SOUL_SHIP } from "./constants/profane-soul-ship";
 import { PROFANE_SOUL_SOLDIER } from "./constants/profane-soul-soldier";
@@ -61,6 +63,7 @@ export {
     KIPINE,
     KRAKEN_TENTACLE,
     MAGE_OF_THE_DRAGONS_FLAME,
+    MASTER_ELEMENTAL,
     MERFOLK_PALADIN,
     METAL_EAGLE,
     METAL_GORILLA,
@@ -71,6 +74,7 @@ export {
     PIRATE_OF_THE_DRAGONS_FLAME,
     POLICE_OFFICER,
     PRIEST_OF_THOR,
+    PROFANE_SOUL_FLAG_SHIP,
     PROFANE_SOUL_MONSTROSITY,
     PROFANE_SOUL_SHIP,
     PROFANE_SOUL_SOLDIER,
@@ -105,6 +109,7 @@ export default {
     KIPINE,
     KRAKEN_TENTACLE,
     MAGE_OF_THE_DRAGONS_FLAME,
+    MASTER_ELEMENTAL,
     MERFOLK_PALADIN,
     METAL_EAGLE,
     METAL_GORILLA,
@@ -115,6 +120,7 @@ export default {
     PIRATE_OF_THE_DRAGONS_FLAME,
     POLICE_OFFICER,
     PRIEST_OF_THOR,
+    PROFANE_SOUL_FLAG_SHIP,
     PROFANE_SOUL_MONSTROSITY,
     PROFANE_SOUL_SHIP,
     PROFANE_SOUL_SOLDIER,

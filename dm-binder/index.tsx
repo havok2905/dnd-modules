@@ -7,15 +7,15 @@ import { DmBinderFooter } from "./components/db-binder-footer/dm-binder-footer";
 import { DmBinderHeader } from "./components/dm-binder-header/dm-binder-header";
 
 // ADVENTURES
-import { CircleBridge } from "./adventures/circle-bridge/index.jsx";
-import { FortBriggs } from "./adventures/fort-briggs/index.jsx";
-import { HibersEdge } from "./adventures/hibers-edge/index.jsx";
-import { JourneyToTheTempleOfAo } from "./adventures/journey-to-the-temple-of-ao/index.jsx";
-import { LightUpTheNight } from "./adventures/light-up-the-night/index.jsx";
-import { NewYork } from "./adventures/new-york/index.jsx";
-import { SilverCreek } from "./adventures/silver-creek/index.jsx";
-import { TheHive } from "./adventures/the-hive/index.jsx";
-import { TheWhisperingSea } from "./adventures/the-whispering-sea/index.jsx";
+import { CircleBridge } from "./adventures/circle-bridge";
+import { FortBriggs } from "./adventures/fort-briggs";
+import { HibersEdge } from "./adventures/hibers-edge";
+import { JourneyToTheTempleOfAo } from "./adventures/journey-to-the-temple-of-ao";
+import { LightUpTheNight } from "./adventures/light-up-the-night";
+import { NewYork } from "./adventures/new-york";
+import { SilverCreek } from "./adventures/silver-creek";
+import { TheHive } from "./adventures/the-hive";
+import { TheWhisperingSea } from "./adventures/the-whispering-sea";
 
 // PAGES
 import { AdventuresPage } from "./pages/adventures-page/adventures-page";
