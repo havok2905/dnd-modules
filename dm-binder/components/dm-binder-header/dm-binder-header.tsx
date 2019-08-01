@@ -9,7 +9,7 @@ const DmBinderHeader = () => {
             <h1>Havok's DM Binder</h1>
             <h2>My collection of RPG resources</h2>
             <Link className="dm-binder-header__home-link" to="/">
-                Home
+                home
             </Link>
         </header>
     );

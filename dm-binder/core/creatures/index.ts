@@ -15,6 +15,8 @@ import { GIANT_GHOSTLY_ARCTIC_CROCODILE } from "./constants/giant-ghostly-arctic
 import { HELICOPTER } from "./constants/helicopter";
 import { HIGH_PRIEST_OF_ENKIEM } from "./constants/high-priest-of-enkiem";
 import { ICE_ELEMENTAL } from "./constants/ice-elemental";
+import { ILLUSION_CHILD } from "./constants/illusion-child";
+import { ILLUSION_GENIE } from "./constants/illusion-genie";
 import { KIPINE } from "./constants/kipine";
 import { KRAKEN_TENTACLE } from "./constants/kraken-tentacle";
 import { MAGE_OF_THE_DRAGONS_FLAME } from "./constants/mage-of-the-dragons-flame";
@@ -60,6 +62,8 @@ export {
     FLESH_SENTINEL,
     HIGH_PRIEST_OF_ENKIEM,
     ICE_ELEMENTAL,
+    ILLUSION_CHILD,
+    ILLUSION_GENIE,
     KIPINE,
     KRAKEN_TENTACLE,
     MAGE_OF_THE_DRAGONS_FLAME,
@@ -106,6 +110,8 @@ export default {
     FLESH_SENTINEL,
     HIGH_PRIEST_OF_ENKIEM,
     ICE_ELEMENTAL,
+    ILLUSION_CHILD,
+    ILLUSION_GENIE,
     KIPINE,
     KRAKEN_TENTACLE,
     MAGE_OF_THE_DRAGONS_FLAME,

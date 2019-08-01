@@ -1,5 +1,5 @@
-import { HashRouter, Route } from "react-router-dom";
-import React, { Fragment } from "react";
+import { HashRouter, Route, withRouter } from "react-router-dom";
+import React, { Component, Fragment } from "react";
 import { render } from "react-dom";
 
 // COMPONENTS
@@ -12,6 +12,7 @@ import { FortBriggs } from "./adventures/fort-briggs";
 import { HibersEdge } from "./adventures/hibers-edge";
 import { JourneyToTheTempleOfAo } from "./adventures/journey-to-the-temple-of-ao";
 import { LightUpTheNight } from "./adventures/light-up-the-night";
+import { MageLand } from "./adventures/mage-land";
 import { NewYork } from "./adventures/new-york";
 import { SilverCreek } from "./adventures/silver-creek";
 import { TheHive } from "./adventures/the-hive";
@@ -22,9 +23,23 @@ import { AdventuresPage } from "./pages/adventures-page/adventures-page";
 import { CompendiumPage } from "./pages/compendium-page/compendium-page";
 import { HomePage } from "./pages/home-page/home-page";
 
+class ScrollToTop extends Component {
+    componentDidUpdate(prevProps) {
+        if (this.props.location.pathname !== prevProps.location.pathname) {
+            window.scrollTo(0, 0);
+        }
+    }
+
+    render() {
+        return this.props.children;
+    }
+}
+
+const ScrollToTopComponent = withRouter(ScrollToTop);
+
 render(
     <HashRouter basename="/dm-binder">
-        <Fragment>
+        <ScrollToTopComponent>
             <DmBinderHeader />
             <Route path="/" exact component={HomePage} />
             <Route path="/adventures" exact component={AdventuresPage} />
@@ -66,8 +81,9 @@ render(
                 exact
                 component={FortBriggs}
             />
+            <Route path="/adventures/mage-land" exact component={MageLand} />
             <DmBinderFooter />
-        </Fragment>
+        </ScrollToTopComponent>
     </HashRouter>,
     document.getElementById("root")
 );

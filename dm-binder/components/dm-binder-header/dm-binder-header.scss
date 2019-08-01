@@ -22,8 +22,10 @@
     }
 
     &__home-link {
-        position: absolute;
+        font-family: "Material Icons";
+        font-size: 32px;
         left: 20px;
+        position: absolute;
         top: 20px;
     }
 }
