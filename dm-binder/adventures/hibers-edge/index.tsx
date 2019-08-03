@@ -109,31 +109,17 @@ const HibersEdge = () => {
                     </p>
                     <p>{Items.LOKIS_HEAVY_PLATE_ARMOR.description}</p>
                 </ItemBlock>
-                <ItemBlock
-                    name="Heavy Steel Shield"
-                    rarity="Rare"
-                    type="Medium Shield"
-                >
+                <ItemBlock {...Items.HEAVY_STEEL_SHIELD}>
                     <p>
                         <strong>1100gp</strong>
                     </p>
-                    <p>
-                        +1 Shield. An ornate shield, painted with Thor's coat of
-                        arms.
-                    </p>
+                    <p>{Items.HEAVY_STEEL_SHIELD.description}</p>
                 </ItemBlock>
-                <ItemBlock
-                    name="Tower Shield"
-                    rarity="Very Rare"
-                    type="Medium Shield"
-                >
+                <ItemBlock {...Items.TOWER_SHIELD}>
                     <p>
                         <strong>9000gp</strong>
                     </p>
-                    <p>
-                        +3 Shield. This masterwork shield was taken from the
-                        hoard of the dragon Amunan.
-                    </p>
+                    <p>{Items.TOWER_SHIELD.description}</p>
                 </ItemBlock>
                 <ItemBlock {...Items.SAILORS_SPEAR}>
                     <p>

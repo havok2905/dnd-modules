@@ -22,6 +22,7 @@ import { TheWhisperingSea } from "./adventures/the-whispering-sea";
 import { AdventuresPage } from "./pages/adventures-page/adventures-page";
 import { CompendiumPage } from "./pages/compendium-page/compendium-page";
 import { HomePage } from "./pages/home-page/home-page";
+import { MapsPage } from "./pages/maps-page/maps-page";
 
 class ScrollToTop extends Component {
     componentDidUpdate(prevProps) {
@@ -44,6 +45,7 @@ render(
             <Route path="/" exact component={HomePage} />
             <Route path="/adventures" exact component={AdventuresPage} />
             <Route path="/compendium" exact component={CompendiumPage} />
+            <Route path="/maps" exact component={MapsPage} />
             <Route
                 path="/adventures/circle-bridge"
                 exact

@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import {
     EmphasisBlock,
     ItemBlock,
+    Items,
     PanZoom,
     ScrollToMe
 } from "../../../core/index.js";
@@ -203,19 +204,8 @@ const TempleOfAo = () => {
                 to do what is right by all costs. What is important are the
                 motivations. A worthy character will receive Star's Emblem.
             </p>
-            <ItemBlock
-                name="Star's Emblem"
-                rarity="Wonderous"
-                type="Small Divine Item"
-            >
-                <p>
-                    This item may only be used by you. You may attach it to any
-                    weapon of yours, allowing that weapon to deal an extra 10d12
-                    radiant damage that cannot be resisted or be made immune
-                    from. This has two charges before it depletes for good. Any
-                    evil character that attempts to wield this weapon will
-                    instantly die.
-                </p>
+            <ItemBlock {...Items.STARS_EMBLEM}>
+                <p>{Items.STARS_EMBLEM.description}</p>
             </ItemBlock>
             <h5>C: Shar's Chamber</h5>
             <EmphasisBlock>
@@ -237,19 +227,8 @@ const TempleOfAo = () => {
                 own well being. What is important are the motivations. A worthy
                 character will receive Moon's Emblem.
             </p>
-            <ItemBlock
-                name="Moon's Emblem"
-                rarity="Wonderous"
-                type="Small Divine Item"
-            >
-                <p>
-                    This item may only be used by you. You may attach it to any
-                    weapon of yours, allowing that weapon to deal an extra 10d12
-                    necrotic damage that cannot be resisted or be made immune
-                    from. This has two charges before it depletes for good. Any
-                    good character that attempts to wield this weapon will
-                    instantly die.
-                </p>
+            <ItemBlock {...Items.MOONS_EMBLEM}>
+                <p>{...Items.MOONS_EMBLEM.description}</p>
             </ItemBlock>
             <h5>D: Ao's Chamber</h5>
             <EmphasisBlock>
