@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, RollTable, ScrollToMe } from "../../../core/index.js";
+import { Map, RollTable, ScrollToMe } from "../../../core/index.js";
 
 import { COUNTRY_RANDOM_ENCOUNTERS } from "../constants/roll-tables/country-random-encounters";
 
@@ -11,9 +11,7 @@ export const TheTownOfSilverCreek = () => {
             <ScrollToMe scrollActionString="the-town-of-silver-creek" />
             <h2 id="the-town-of-silver-creek">The Town of Silver Creek</h2>
             <h3>Map</h3>
-            <PanZoom>
-                <img src={SilverCreekMineImage} alt="Silver Creek Mine Image" />
-            </PanZoom>
+            <Map src={SilverCreekMineImage} alt="Silver Creek Mine Image" />
             <h3>History</h3>
             <p>
                 Silver Creek is an old mining town that built itself around a

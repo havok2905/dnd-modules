@@ -11,9 +11,9 @@ import { Footer } from "./components/footer/footer";
 import { Hero } from "./components/hero/hero";
 import { ImportantButton } from "./components/button/important-button";
 import { ItemBlock } from "./components/item-block/item-block";
+import { Map } from "./components/map/map";
 import { MonsterBlock } from "./components/monster-block/monster-block";
 import { Page } from "./components/page/page";
-import { PanZoom } from "./components/pan-zoom/pan-zoom";
 import { QuickRef } from "./components/quick-ref/quick-ref";
 import { QuickRoll } from "./components/quick-roll/quick-roll";
 import { RollForm } from "./components/roll-form/roll-form";
@@ -46,9 +46,9 @@ export {
     Hero,
     ImportantButton,
     ItemBlock,
+    Map,
     MonsterBlock,
     Page,
-    PanZoom,
     QuickRef,
     QuickRoll,
     RollForm,

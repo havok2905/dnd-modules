@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, ScrollToMe } from "../../../core/index.js";
+import { Map, ScrollToMe } from "../../../core/index.js";
 
 import DustStormRailImage from "../img/dust-storm-rail.png";
 
@@ -8,9 +8,7 @@ export const DustStormRail = () => {
         <Fragment>
             <ScrollToMe scrollActionString="dust-storm-rail" />
             <h2 id="dust-storm-rail">The Dust Storm Rail</h2>
-            <PanZoom>
-                <img src={DustStormRailImage} alt="Dust Storm Rail Map" />
-            </PanZoom>
+            <Map src={DustStormRailImage} alt="Dust Storm Rail Map" />
             <h3>Dragon Attack</h3>
             <p>
                 Along the Dust Storm Rail, the train will, every so often, fall

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import {
     EmphasisBlock,
-    PanZoom,
+    Map,
     RollTable,
     ScrollToMe
 } from "../../../core/index.js";
@@ -117,9 +117,7 @@ export const TownCentral = () => {
                 gambling, spirits, and the only brothel in hundreds of miles.
             </p>
             <h4>Basement</h4>
-            <PanZoom>
-                <img src={SaloonBasementImage} alt="Saloon Basement Map" />
-            </PanZoom>
+            <Map src={SaloonBasementImage} alt="Saloon Basement Map" />
             <EmphasisBlock>
                 <p>
                     The smell of ale and stale air fills your nostrils as you
@@ -150,9 +148,7 @@ export const TownCentral = () => {
                 <li>12 Silver Pieces</li>
             </ul>
             <h4>Ground Floor</h4>
-            <PanZoom>
-                <img src={SaloonLevel1Image} alt="Saloon Level 1 Map" />
-            </PanZoom>
+            <Map src={SaloonLevel1Image} alt="Saloon Level 1 Map" />
             <EmphasisBlock>
                 <p>
                     The bright tune of the piano bounces off the walls, mingling
@@ -250,9 +246,7 @@ export const TownCentral = () => {
                 </li>
             </ol>
             <h4>Second Floor</h4>
-            <PanZoom>
-                <img src={SaloonLevel2Image} alt="Saloon Level 2 Map" />
-            </PanZoom>
+            <Map src={SaloonLevel2Image} alt="Saloon Level 2 Map" />
             <p>
                 The three bedrooms upstairs can be rented for 5 SP per night.
                 When not rented, they are used by the prostitutes that work on
@@ -285,9 +279,7 @@ export const TownCentral = () => {
                 <li>20 Bullets</li>
             </ul>
             <h3>General Store and Pharmacy</h3>
-            <PanZoom>
-                <img src={GeneralStore} alt="General Store Map" />
-            </PanZoom>
+            <Map src={GeneralStore} alt="General Store Map" />
             <p>The General Store is run by Jack Miller</p>
             <h4>Inventory</h4>
             <table className="table">

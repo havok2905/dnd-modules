@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom, ScrollToMe } from "../../../core/index.js";
+import { EmphasisBlock, Map, ScrollToMe } from "../../../core/index.js";
 
 import GreatTomahawkRiverImage from "../img/great-tomahawk-river.png";
 
@@ -8,12 +8,7 @@ export const GreatTomahawkRiver = () => {
         <Fragment>
             <ScrollToMe scrollActionString="great-tomahawk-river" />
             <h2 id="great-tomahawk-river">Great Tomahawk River</h2>
-            <PanZoom>
-                <img
-                    src={GreatTomahawkRiverImage}
-                    alt="Great Tomahawk River Map"
-                />
-            </PanZoom>
+            <Map src={GreatTomahawkRiverImage} alt="Great Tomahawk River Map" />
             <EmphasisBlock>
                 <p>
                     A pair of horses can be seen, heads lowered to the base of

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, PanZoom } from "../../../core/index.js";
+import { EmphasisBlock, Map } from "../../../core/index.js";
 
 import DUNGEON_MAP from "../img/dungeon.png";
 import LEVEL_ONE_MAP from "../img/level-one.png";
@@ -14,9 +14,7 @@ export const ThePalace = () => {
             <h2>The Palace</h2>
             <h3>Dungeon</h3>
             <h4>Map</h4>
-            <PanZoom>
-                <img src={DUNGEON_MAP} alt="dungeon map" />
-            </PanZoom>
+            <Map src={DUNGEON_MAP} alt="dungeon map" />
             <h4>A: Stairwell to Level 1</h4>
             <p>Stairwell leads up to Level 1</p>
             <h4>B: Blacksmith</h4>
@@ -82,9 +80,7 @@ export const ThePalace = () => {
             </p>
             <h3>Level 1</h3>
             <h4>Map</h4>
-            <PanZoom>
-                <img src={LEVEL_ONE_MAP} alt="level 1 map" />
-            </PanZoom>
+            <Map src={LEVEL_ONE_MAP} alt="level 1 map" />
             <h4>A: Lobby / Main Hallway</h4>
             <p>
                 Walking side to side, down the length of the hallway are eight
@@ -220,9 +216,7 @@ export const ThePalace = () => {
             </EmphasisBlock>
             <h3>Level 2</h3>
             <h4>Map</h4>
-            <PanZoom>
-                <img src={LEVEL_TWO_MAP} alt="level 2 map" />
-            </PanZoom>
+            <Map src={LEVEL_TWO_MAP} alt="level 2 map" />
             <h4>A: Main Walkway</h4>
             <p>
                 2 Flesh Sentinels walk in unison around the circle of the
@@ -273,9 +267,7 @@ export const ThePalace = () => {
             <p>Stairwell leads to Level 3C</p>
             <h3>Level 3</h3>
             <h4>Map</h4>
-            <PanZoom>
-                <img src={LEVEL_THREE_MAP} alt="level 3 map" />
-            </PanZoom>
+            <Map src={LEVEL_THREE_MAP} alt="level 3 map" />
             <h4>A: Tower A</h4>
             <p>2 Archers stand at windows, arrows at the ready.</p>
             <h4>B: Tower B</h4>
@@ -311,9 +303,7 @@ export const ThePalace = () => {
             </p>
             <h3>Level 4</h3>
             <h4>Map</h4>
-            <PanZoom>
-                <img src={LEVEL_FOUR_MAP} alt="level 4 map" />
-            </PanZoom>
+            <Map src={LEVEL_FOUR_MAP} alt="level 4 map" />
             <h4>Overview</h4>
             <p>
                 From this level, the players can get a good view of the

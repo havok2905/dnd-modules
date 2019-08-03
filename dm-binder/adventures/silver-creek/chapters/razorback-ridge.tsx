@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, ScrollToMe } from "../../../core/index.js";
+import { Map, ScrollToMe } from "../../../core/index.js";
 
 import RazorbackRidgeImage from "../img/razorback-ridge.png";
 
@@ -8,9 +8,7 @@ export const RazorbackRidge = () => {
         <Fragment>
             <ScrollToMe scrollActionString="razorback-ridge" />
             <h2 id="razorback-ridge">Razorback Ridge</h2>
-            <PanZoom>
-                <img src={RazorbackRidgeImage} alt="Razorback Ridge Map" />
-            </PanZoom>
+            <Map src={RazorbackRidgeImage} alt="Razorback Ridge Map" />
             <h3>Bandit Camp</h3>
             <p>
                 The bandit camp is split in two. The side to the north,

@@ -5,9 +5,9 @@ import {
     DmScreen,
     EmphasisBlock,
     Footer,
+    Map,
     MonsterBlock,
     Page,
-    PanZoom,
     RollTable,
     ScrollToMe
 } from "../../core/index.js";
@@ -134,9 +134,7 @@ const FortBriggs = () => {
                 </p>
                 <h3>Maps</h3>
                 <h4>Tower</h4>
-                <PanZoom>
-                    <img src={TowerImage} alt="Tower" />
-                </PanZoom>
+                <Map src={TowerImage} alt="Tower" />
                 <h5>S: East Eagle Tower</h5>
                 <ul>
                     <li>Wood Pile</li>
@@ -154,9 +152,7 @@ const FortBriggs = () => {
                     the fire or causing a disturbance will cause them to attack.
                 </p>
                 <h4>Level 1</h4>
-                <PanZoom>
-                    <img src={Level1Image} alt="Level 1" />
-                </PanZoom>
+                <Map src={Level1Image} alt="Level 1" />
                 <h5>A: Main Hall</h5>
                 <EmphasisBlock>
                     Splatters of frozen blood and shards of ice blanket the
@@ -297,9 +293,7 @@ const FortBriggs = () => {
                     <li>1 Letter to Loved Ones</li>
                 </ul>
                 <h4>Basement</h4>
-                <PanZoom>
-                    <img src={BasementImage} alt="Basement" />
-                </PanZoom>
+                <Map src={BasementImage} alt="Basement" />
                 <h5>F: Lobby</h5>
                 <p>Stairwell leads up to Level 1: A.</p>
                 <h5>G: Smith</h5>
@@ -408,9 +402,7 @@ const FortBriggs = () => {
                 <h5>P: Passage to Tunnels</h5>
                 <p>Leads to Q: Ruins</p>
                 <h4>Tunnels</h4>
-                <PanZoom>
-                    <img src={TunnelsImage} alt="Tunnels" />
-                </PanZoom>
+                <Map src={TunnelsImage} alt="Tunnels" />
                 <h5>Q: Caves</h5>
                 <EmphasisBlock>
                     <p>

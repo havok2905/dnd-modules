@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { PanZoom, ScrollToMe } from "../../../core/index.js";
+import { Map, ScrollToMe } from "../../../core/index.js";
 
 import RuinsOfAsmodeousBasement from "../img/ruins-of-asmodeous-basement.png";
 import RuinsOfAsmodeousGroundFloor from "../img/ruins-of-asmodeous-ground-floor.png";
@@ -22,12 +22,10 @@ export const RuinsOfAsmodeous = () => {
                 were active worshipers of the devilish god.
             </p>
             <h3>Basement</h3>
-            <PanZoom>
-                <img
-                    src={RuinsOfAsmodeousBasement}
-                    alt="Ruins of Asmodeous Basment Map"
-                />
-            </PanZoom>
+            <Map
+                src={RuinsOfAsmodeousBasement}
+                alt="Ruins of Asmodeous Basment Map"
+            />
             <h3>Ground Floor</h3>
             <h4>Worshipers</h4>
             <p>
@@ -37,19 +35,12 @@ export const RuinsOfAsmodeous = () => {
                 become hostile to anyone that walks through the door and has no
                 means of joining the cult.
             </p>
-            <PanZoom>
-                <img
-                    src={RuinsOfAsmodeousGroundFloor}
-                    alt="Ruins of Asmodeous Ground Floor Map"
-                />
-            </PanZoom>
+            <Map
+                src={RuinsOfAsmodeousGroundFloor}
+                alt="Ruins of Asmodeous Ground Floor Map"
+            />
             <h3>Roof</h3>
-            <PanZoom>
-                <img
-                    src={RuinsOfAsmodeousRoof}
-                    alt="Ruins of Asmodeous Roof Map"
-                />
-            </PanZoom>
+            <Map src={RuinsOfAsmodeousRoof} alt="Ruins of Asmodeous Roof Map" />
         </Fragment>
     );
 };

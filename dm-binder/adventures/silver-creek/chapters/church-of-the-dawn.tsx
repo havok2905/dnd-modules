@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { EmphasisBlock, PanZoom, ScrollToMe } from "../../../core/index.js";
+import { EmphasisBlock, Map, ScrollToMe } from "../../../core/index.js";
 
 import ChurchOfTheDawnImage from "../img/church-of-the-dawn.png";
 
@@ -9,9 +9,7 @@ export const ChurchOfTheDawn = () => {
             <ScrollToMe scrollActionString="church-of-the-dawn" />
             <h2 id="church-of-the-dawn">Church of the Dawn</h2>
             <h3>Temple to Lathander</h3>
-            <PanZoom>
-                <img src={ChurchOfTheDawnImage} alt="Church of the Dawn Map" />
-            </PanZoom>
+            <Map src={ChurchOfTheDawnImage} alt="Church of the Dawn Map" />
             <p>
                 The Temple of Lathander is run by Priestess Tracy Melrose. It is
                 low on funds and volunteers. It is missing the resources needed

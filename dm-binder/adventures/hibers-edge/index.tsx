@@ -7,10 +7,10 @@ import {
     Footer,
     Items,
     ItemBlock,
+    Map,
     MonsterBlock,
     Npcs,
     Page,
-    PanZoom,
     RollTable,
     ScrollToMe
 } from "../../core/index.js";
@@ -84,9 +84,7 @@ const HibersEdge = () => {
                 </p>
                 <ScrollToMe scrollActionString="the-town" />
                 <h2 id="the-town">The Town</h2>
-                <PanZoom>
-                    <img src={HibersEdgeMap} alt="map of hibers edge" />
-                </PanZoom>
+                <Map src={HibersEdgeMap} alt="map of hibers edge" />
                 <h3>A: Main Town</h3>
                 <h4>Mjolnir's Anvil</h4>
                 <EmphasisBlock>

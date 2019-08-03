@@ -7,9 +7,9 @@ import {
     Footer,
     ItemBlock,
     Items,
+    Map,
     MonsterBlock,
-    Page,
-    PanZoom
+    Page
 } from "../../core/index.js";
 
 import CircleBridgeMap from "./img/circle-bridge.png";
@@ -50,9 +50,7 @@ const CircleBridge = () => {
                     aligned with the moon.
                 </EmphasisBlock>
                 <h3>Map</h3>
-                <PanZoom>
-                    <img src={CircleBridgeMap} alt="circle bridge map" />
-                </PanZoom>
+                <Map alt="circle bridge map" src={CircleBridgeMap} />
                 <h2>Items</h2>
                 <ItemBlock {...Items.TUNIC_OF_LOST_MEMORY}>
                     {Items.TUNIC_OF_LOST_MEMORY.description}

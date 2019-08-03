@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import {
     EmphasisBlock,
-    PanZoom,
+    Map,
     RollTable,
     ScrollToMe
 } from "../../../core/index.js";
@@ -58,9 +58,7 @@ export const ChapterThree = () => {
             </div>
             <h3>Cavern</h3>
             <h4>Level 1</h4>
-            <PanZoom>
-                <img src={UnderdarkLebel1Image} alt="underdark level 1 map" />
-            </PanZoom>
+            <Map src={UnderdarkLebel1Image} alt="underdark level 1 map" />
             <h5>A: Raven Storeroom</h5>
             <p>
                 This room is blocked by a locked, trapped, door. It can be
@@ -107,12 +105,7 @@ export const ChapterThree = () => {
                 the myconids and the aboleth of the player's presence.
             </p>
             <h4>Basement 1</h4>
-            <PanZoom>
-                <img
-                    src={UnderdarkBasement1Image}
-                    alt="underdark basement 1 map"
-                />
-            </PanZoom>
+            <Map src={UnderdarkBasement1Image} alt="underdark basement 1 map" />
             <h5>B: Underdark Shanty Town</h5>
             <h6>The Pond</h6>
             <p>
@@ -228,12 +221,7 @@ export const ChapterThree = () => {
             <h5>N: Stairwell Down to Basement 2</h5>
             <p>This stairwell leads directly down to basement 2.</p>
             <h4>Basement 2</h4>
-            <PanZoom>
-                <img
-                    src={UnderdarkBasement2Image}
-                    alt="underdark basement 2 map"
-                />
-            </PanZoom>
+            <Map src={UnderdarkBasement2Image} alt="underdark basement 2 map" />
             <h5>K: Wide Hall</h5>
             <p>Roll from the random encounter table.</p>
             <h5>M: Wide Hall</h5>
@@ -281,12 +269,7 @@ export const ChapterThree = () => {
                 </p>
             </EmphasisBlock>
             <h4>Basement 3</h4>
-            <PanZoom>
-                <img
-                    src={UnderdarkBasement3Image}
-                    alt="underdark basement 3 map"
-                />
-            </PanZoom>
+            <Map src={UnderdarkBasement3Image} alt="underdark basement 3 map" />
             <h5>D: Back up to Level 1</h5>
             <p>This passageway leads back up to the first level.</p>
             <h5>S: Entryway</h5>

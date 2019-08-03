@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { PanZoom, ScrollToMe } from "../../../core/index.js";
+import { Map, ScrollToMe } from "../../../core/index.js";
 
 import WorldMapImage from "../img/world-map.jpg";
 
@@ -9,9 +9,7 @@ const WorldMap = () => {
         <Fragment>
             <ScrollToMe scrollActionString="world-map" />
             <h2>World Map</h2>
-            <PanZoom>
-                <img src={WorldMapImage} alt="World Map" />
-            </PanZoom>
+            <Map src={WorldMapImage} alt="World Map" />
         </Fragment>
     );
 };

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { EmphasisBlock, PanZoom, ScrollToMe } from "../../../core/index.js";
+import { EmphasisBlock, Map, ScrollToMe } from "../../../core/index.js";
 
 import PORT_CITY_MAP from "../img/port-city.png";
 import FORT_WAFFLEHEIM_MAP from "../img/fort-waffleheim.png";
@@ -11,9 +11,7 @@ const NewFey = () => {
             <ScrollToMe scrollActionString="new-fey" />
             <h2>New Fey</h2>
             <h3>Port City</h3>
-            <PanZoom>
-                <img src={PORT_CITY_MAP} alt="port city map" />
-            </PanZoom>
+            <Map src={PORT_CITY_MAP} alt="port city map" />
             <p>
                 Port City is the biggest trading hub in New Fey. They primarily
                 deal with the nomadic tribes to the north, in Krossa, and the
@@ -94,9 +92,7 @@ const NewFey = () => {
                 blizzard. It cannot be swayed by divine means.
             </p>
             <h3>Fort Waffleheim</h3>
-            <PanZoom>
-                <img src={FORT_WAFFLEHEIM_MAP} alt="fort waffleheim city map" />
-            </PanZoom>
+            <Map src={FORT_WAFFLEHEIM_MAP} alt="fort waffleheim city map" />
             <p>
                 Fort Waffleim is a town of mostly New Fey soldiers and shops
                 that tailor to them. Home to many veterans, they use their

@@ -4,7 +4,7 @@ import {
     EmphasisBlock,
     ItemBlock,
     Items,
-    PanZoom,
+    Map,
     ScrollToMe
 } from "../../../core/index.js";
 
@@ -56,15 +56,11 @@ const TempleOfAo = () => {
             </EmphasisBlock>
             <h3>Maps</h3>
             <h4>Level 1</h4>
-            <PanZoom>
-                <img src={TEMPLE_OF_AO_L1} />
-            </PanZoom>
+            <Map alt="Temple of Ao L1" src={TEMPLE_OF_AO_L1} />
             <h5>A: Temple Entrance</h5>
             <p>There is a peaceful quiet in this room.</p>
             <h5>B: The Portal Puzzle</h5>
-            <PanZoom>
-                <img src={PORTAL_PUZZLE} />
-            </PanZoom>
+            <Map alt="Temple of Ao Puzzle" src={PORTAL_PUZZLE} />
             <h5>C: Lobby of the Elementals</h5>
             <p>Engraved on a plaque on at the end of the room reads...</p>
             <EmphasisBlock>
@@ -171,9 +167,7 @@ const TempleOfAo = () => {
                 causing each player's individual trial to commence.
             </p>
             <h4>Level 2</h4>
-            <PanZoom>
-                <img src={TEMPLE_OF_AO_L2} />
-            </PanZoom>
+            <Map src={TEMPLE_OF_AO_L2} alt="Temple of Ao L2" />
             <h5>A: Main Hall</h5>
             <EmphasisBlock>
                 <p>
@@ -228,7 +222,7 @@ const TempleOfAo = () => {
                 character will receive Moon's Emblem.
             </p>
             <ItemBlock {...Items.MOONS_EMBLEM}>
-                <p>{...Items.MOONS_EMBLEM.description}</p>
+                <p>{Items.MOONS_EMBLEM.description}</p>
             </ItemBlock>
             <h5>D: Ao's Chamber</h5>
             <EmphasisBlock>

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import {
     EmphasisBlock,
-    PanZoom,
+    Map,
     RollTable,
     ScrollToMe
 } from "../../../core/index.js";
@@ -33,9 +33,7 @@ export const ChapterTwo = () => {
                 they wish, regardless of the roll.
             </p>
             <h3>Map</h3>
-            <PanZoom>
-                <img src={MarshMapImage} alt="marsh map" />
-            </PanZoom>
+            <Map src={MarshMapImage} alt="marsh map" />
             <h3>Random Encounters</h3>
             <RollTable items={MARSH_ROLL_TABLE} />
             <h3>A: Random</h3>
