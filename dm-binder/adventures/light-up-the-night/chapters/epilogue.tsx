@@ -45,7 +45,8 @@ export const Epilogue = () => {
                     a long day's journey. From his back, the man pulls out a
                     lute and begins to play a bright, joyous tune. As he plucks
                     the strings, a warm hum fills the ears of all who are
-                    present.
+                    present, and the man's eyes lock with a new group of
+                    wanderers, starry eyed and in search of adventure.
                 </p>
             </EmphasisBlock>
         </Fragment>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { DmScreen, Footer, Page } from "../../core/index.js";
+import { Intro } from "./chapters/intro";
 import { TheTempleOfMaren } from "./chapters/the-temple-of-maren";
 import { TheTempleOfEnkiem } from "./chapters/the-temple-of-enkiem";
 import { ThePalace } from "./chapters/the-palace";
@@ -17,6 +18,7 @@ export const LightUpTheNight = () => {
         <Fragment>
             <Page>
                 <h1>Light Up The Night</h1>
+                <Intro />
                 <TheTempleOfMaren />
                 <TheTempleOfEnkiem />
                 <Habarashi />
