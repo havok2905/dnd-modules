@@ -35,16 +35,17 @@ const FortBriggs = () => {
                     expanding their basement further underground, in an attempt
                     to house more soldiers. As they dug deeper, they stumbled
                     upon the ruins of an ancient ice wizard. Encased in a blue
-                    crystal is the withering corpse of an woman. The life force
-                    of this elf was used to summon{" "}
-                    <strong>Ice Elementals</strong> in a previous age. There is
-                    just enough life force for one more elemental. It proceeded
-                    to lay waste to the soldiers, their skeletons reanimating
-                    with the abundant magic in the area.
+                    crystal is the withering corpse of an elf woman. The life
+                    force of this elf was once used to summon{" "}
+                    <strong>Ice Elementals</strong> in a previous age in a time
+                    of war. There is just enough life force for one more
+                    elemental which spawned at first sight of the soldiers. It
+                    proceeded to lay waste to the men, their skeletons
+                    reanimating with the abundant magic in the area.
                 </p>
                 <p>
                     One soldier was able to escape. He flees south for
-                    reinforcements to help save his friends.
+                    reinforcements to help save his comrades.
                 </p>
                 <ScrollToMe scrollActionString="hook" />
                 <h2>Hook</h2>

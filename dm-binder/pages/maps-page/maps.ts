@@ -3,6 +3,7 @@ import ARCANE_PALACE_LEVEL_1 from "./img/arcane-palace-level-1.png";
 import ARCANE_PALACE_LEVEL_2 from "./img/arcane-palace-level-2.png";
 import ARCANE_PALACE_LEVEL_3 from "./img/arcane-palace-level-3.png";
 import ARCANE_PALACE_LEVEL_4 from "./img/arcane-palace-level-4.png";
+import ARCTIC_MOUNTAIN from "./img/arctic-mountain.png";
 import CHURCH_OF_THE_DAWN from "./img/church-of-the-dawn.png";
 import CLOCK_TOWER_DUNGEON_BASEMENT_1 from "./img/clock-tower-dungeon-basement-1.png";
 import CLOCK_TOWER_DUNGEON_BASEMENT_2 from "./img/clock-tower-dungeon-basement-2.png";
@@ -38,6 +39,10 @@ import RUINS_OF_ASMODEOUS_LEVEL_2 from "./img/ruins-of-asmodeous-level-2.png";
 import SALOON_BASEMENT from "./img/saloon-basement.png";
 import SALOON_LEVEL_1 from "./img/saloon-level-1.png";
 import SALOON_LEVEL_2 from "./img/saloon-level-2.png";
+import SNOW_FORT_BASEMENT from "./img/snow-fort-basement.png";
+import SNOW_FORT_LEVEL_1 from "./img/snow-fort-level-1.png";
+import SNOW_FORT_TOWER from "./img/snow-fort-tower.png";
+import SNOW_FORT_TUNNELS from "./img/snow-fort-tunnels.png";
 import TEMPLE_OF_AO from "./img/TempleOfAo.png";
 import TEMPLE_OF_AO_L1 from "./img/TempleOfAoL1.png";
 
@@ -57,6 +62,7 @@ export const Maps: GalleryImage[] = [
     new GalleryImage(ARCANE_PALACE_LEVEL_2, "Arcane Palace Level 2"),
     new GalleryImage(ARCANE_PALACE_LEVEL_3, "Arcane Palace Level 3"),
     new GalleryImage(ARCANE_PALACE_LEVEL_4, "Arcane Palace Level 4"),
+    new GalleryImage(ARCTIC_MOUNTAIN, "Arctic Mountain"),
     new GalleryImage(CHURCH_OF_THE_DAWN, "Church of the Dawn"),
     new GalleryImage(CLOCK_TOWER_DUNGEON_LEVEL_ROOF, "Clock Tower Roof"),
     new GalleryImage(CLOCK_TOWER_DUNGEON_LEVEL_10, "Clock Tower Level 10"),
@@ -95,6 +101,10 @@ export const Maps: GalleryImage[] = [
     new GalleryImage(SALOON_BASEMENT, "Saloon Basement"),
     new GalleryImage(SALOON_LEVEL_1, "Saloon Level 1"),
     new GalleryImage(SALOON_LEVEL_2, "Saloon Level 2"),
+    new GalleryImage(SNOW_FORT_BASEMENT, "Snow Fort Basement"),
+    new GalleryImage(SNOW_FORT_LEVEL_1, "Snow Fort Level 1"),
+    new GalleryImage(SNOW_FORT_TOWER, "Snow Fort Tower"),
+    new GalleryImage(SNOW_FORT_TUNNELS, "Snow Fort Tunnels"),
     new GalleryImage(TEMPLE_OF_AO, "Temple of Ao: Ao's Chamber"),
     new GalleryImage(TEMPLE_OF_AO_L1, "Temple of Ao: First Level")
 ];
