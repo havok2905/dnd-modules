@@ -31,6 +31,7 @@ import GASTOLIR_BATTLE_MAP_4 from "./img/gastolir-battle-map-4.png";
 import GASTOLIR_BATTLE_MAP_5 from "./img/gastolir-battle-map-5.png";
 import GASTOLIR_BATTLE_MAP_6 from "./img/gastolir-battle-map-6.png";
 import GASTOLIR_BATTLE_MAP_7 from "./img/gastolir-battle-map-7.png";
+import MAGE_LAND_BASEMENT from "./img/mage-land-basement.png";
 import MARSH from "./img/marsh.jpg";
 import RIVER from "./img/river.png";
 import RUINS_OF_ASMODEOUS_BASEMENT from "./img/ruins-of-asmodeous-basement.png";
@@ -90,6 +91,7 @@ export const Maps: GalleryImage[] = [
     new GalleryImage(GASTOLIR_BATTLE_MAP_5, "Abandoned Dwarf Mine Level 5"),
     new GalleryImage(GASTOLIR_BATTLE_MAP_6, "Abandoned Dwarf Mine Level 6"),
     new GalleryImage(GASTOLIR_BATTLE_MAP_7, "Abandoned Dwarf Mine Level 7"),
+    new GalleryImage(MAGE_LAND_BASEMENT, "Mage Land Basement"),
     new GalleryImage(MARSH, "Marsh"),
     new GalleryImage(RIVER, "River"),
     new GalleryImage(
