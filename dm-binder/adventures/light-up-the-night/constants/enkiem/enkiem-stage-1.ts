@@ -16,8 +16,7 @@ export const ENKIEM_STAGE_1 = {
     features: [
         {
             title: "Security Priests",
-            description:
-                "All damage taken is halved and sent to a priest within 100ft."
+            description: "All damage taken is sent to a priest within 100ft."
         }
     ],
     hp: 9999999,
